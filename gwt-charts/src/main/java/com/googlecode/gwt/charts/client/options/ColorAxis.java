@@ -39,7 +39,7 @@ public class ColorAxis extends JavaScriptObject {
 	 * You must have at least two values; the gradient will include all your values, plus calculated intermediary
 	 * values, with the first color as the smallest value, and the last color as the highest.
 	 * 
-	 * @param colors
+	 * @param colors todo
 	 */
 	public final void setColors(String... colors) {
 		setColors(ArrayHelper.createArray(colors));
@@ -48,7 +48,7 @@ public class ColorAxis extends JavaScriptObject {
 	/**
 	 * Sets properties of the legend.
 	 * 
-	 * @param legend
+	 * @param legend todo
 	 */
 	public final native void setLegend(ColorAxisLegend legend) /*-{
 		this.legend = legend;
@@ -58,7 +58,7 @@ public class ColorAxis extends JavaScriptObject {
 	 * If present, specifies a maximum value for chart color data. Color data values of this value and higher will be
 	 * rendered as the last color in the colorAxis.colors range.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(double maxValue) /*-{
 		this.maxValue = maxValue;
@@ -68,7 +68,7 @@ public class ColorAxis extends JavaScriptObject {
 	 * If present, specifies a minimum value for chart color data. Color data values of this value and lower will be
 	 * rendered as the first color in the colorAxis.colors range.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(double minValue) /*-{
 		this.minValue = minValue;
@@ -80,7 +80,7 @@ public class ColorAxis extends JavaScriptObject {
 	 * gradient of the values specified here. Not specifying a value for this option is equivalent to specifying
 	 * [minValue, maxValue].
 	 * 
-	 * @param values
+	 * @param values todo
 	 */
 	public final void setValues(double... values) {
 		setValues(ArrayHelper.createArray(values));

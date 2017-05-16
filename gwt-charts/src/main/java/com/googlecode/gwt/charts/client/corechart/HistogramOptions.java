@@ -50,7 +50,7 @@ public class HistogramOptions extends CoreOptions {
 	/**
 	 * Hardcode the size of each histogram bar, rather than letting it be determined algorithmically.
 	 * 
-	 * @param bucketSize
+	 * @param bucketSize todo
 	 */
 	public final native void setBucketSize(int bucketSize) /*-{
 		if (!this.histogram) {
@@ -91,7 +91,7 @@ public class HistogramOptions extends CoreOptions {
 	/**
 	 * Omit the thin divisions between the blocks of the histogram, making it into a series of solid bars.
 	 * 
-	 * @param hideBucketItems
+	 * @param hideBucketItems todo
 	 */
 	public final native void setHideBucketItems(boolean hideBucketItems) /*-{
 		if (!this.histogram) {
@@ -122,7 +122,7 @@ public class HistogramOptions extends CoreOptions {
 	/**
 	 * When calculating the histogram's bucket size, ignore the top and bottom lastBucketPercentile percent.
 	 * 
-	 * @param lastBucketPercentile
+	 * @param lastBucketPercentile todo
 	 */
 	public final native void setLastBucketPercentile(int lastBucketPercentile) /*-{
 		if (!this.histogram) {
@@ -135,7 +135,7 @@ public class HistogramOptions extends CoreOptions {
 	 * The orientation of the chart. When set to 'vertical', rotates the axes of the chart so that (for instance) a
 	 * column chart becomes a bar chart, and an area chart grows rightward instead of up.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final native void setOrientation(Orientation orientation) /*-{
 		this.orientation = orientation;
@@ -145,7 +145,7 @@ public class HistogramOptions extends CoreOptions {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */

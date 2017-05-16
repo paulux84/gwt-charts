@@ -32,7 +32,7 @@ public abstract class SelectHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onSelect(SelectEvent event);
 }

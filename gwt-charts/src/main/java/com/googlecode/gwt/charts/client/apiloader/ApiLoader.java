@@ -23,7 +23,7 @@ import com.google.gwt.user.client.Window;
 import java.util.Vector;
 
 /**
- * A wrapper for the <a href="https://developers.google.com/loader/">Google Loader/a>.
+ * A wrapper for the <a href="https://developers.google.com/loader/">Google Loader</a>.
  */
 public class ApiLoader {
 	private static String HOSTNAME = "www.google.com";
@@ -126,7 +126,7 @@ public class ApiLoader {
 		}
 		$wnd.__gwt_charts_AjaxLoader_onLoad = function() {
 			loader.@com.googlecode.gwt.charts.client.apiloader.ApiLoader::onLoadCallback()();
-		}
+		};
 		// The application must wait for a callback.
 		return false;
 	}-*/;

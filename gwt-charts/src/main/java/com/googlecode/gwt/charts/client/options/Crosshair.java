@@ -42,7 +42,7 @@ public class Crosshair extends JavaScriptObject {
 	/**
 	 * Sets the crosshair properties upon focus.
 	 * 
-	 * @param focused
+	 * @param focused todo
 	 */
 	public final native void setFocused(CrosshairProperties focused) /*-{
 		this.focused = focused;
@@ -60,7 +60,7 @@ public class Crosshair extends JavaScriptObject {
 	/**
 	 * Sets the crosshair orientation.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final void setOrientation(CrosshairOrientation orientation) {
 		setOrientation(orientation.getName());
@@ -69,7 +69,7 @@ public class Crosshair extends JavaScriptObject {
 	/**
 	 * Sets the crosshair properties upon selection.
 	 * 
-	 * @param selected
+	 * @param selected todo
 	 */
 	public final native void setSelected(CrosshairProperties selected) /*-{
 		this.selected = selected;
@@ -78,7 +78,7 @@ public class Crosshair extends JavaScriptObject {
 	/**
 	 * Determins when to display crosshairs.
 	 * 
-	 * @param trigger
+	 * @param trigger todo
 	 */
 	public final void setTrigger(CrosshairTrigger trigger) {
 		setTrigger(trigger.getName());

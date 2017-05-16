@@ -35,8 +35,8 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Constructor with value and label.
 	 * 
-	 * @param value
-	 * @param label
+	 * @param value todo
+	 * @param label todo
 	 * @return a new object instance
 	 */
 	public static Tick create(Date value, String label) {
@@ -49,8 +49,8 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Constructor with value and label.
 	 * 
-	 * @param value
-	 * @param label
+	 * @param value todo
+	 * @param label todo
 	 * @return a new object instance
 	 */
 	public static Tick create(double value, String label) {
@@ -63,8 +63,8 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Constructor with value and label.
 	 * 
-	 * @param value
-	 * @param label
+	 * @param value todo
+	 * @param label todo
 	 * @return a new object instance
 	 */
 	public static Tick create(int value, String label) {
@@ -77,8 +77,8 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Constructor with value and label.
 	 * 
-	 * @param value
-	 * @param label
+	 * @param value todo
+	 * @param label todo
 	 * @return a new object instance
 	 */
 	public static Tick create(TimeOfDay value, String label) {
@@ -94,7 +94,7 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Sets the literal string to be displayed as the label.
 	 * 
-	 * @param name
+	 * @param name todo
 	 */
 	public final native void setF(String name) /*-{
 		this.f = name;
@@ -103,7 +103,7 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Sets the tick value.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final void setV(Date value) {
 		setV(DateHelper.getJsDate(value));
@@ -112,7 +112,7 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Sets the tick value.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final native void setV(double value) /*-{
 		this.v = value;
@@ -121,7 +121,7 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Sets the tick value.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final native void setV(int value) /*-{
 		this.v = value;
@@ -130,7 +130,7 @@ public class Tick extends JavaScriptObject {
 	/**
 	 * Sets the tick value.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final void setV(TimeOfDay value) {
 		setV(value);

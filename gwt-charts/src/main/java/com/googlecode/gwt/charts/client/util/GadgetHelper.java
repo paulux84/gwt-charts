@@ -56,7 +56,7 @@ public class GadgetHelper extends JavaScriptObject {
 	 * Returns false if the query execution failed and the response does not contain data. If an error occured, this
 	 * method displays an error message.
 	 * 
-	 * @param queryResponse
+	 * @param queryResponse todo
 	 * @return true if the response contains data
 	 */
 	public static final native boolean validateResponse(QueryResponse queryResponse) /*-{

@@ -26,8 +26,8 @@ public enum ScaleType {
 	/**
 	 * The Y axis varies, depending on the data values values:
 	 * <ul>
-	 * <li>If all values are >=0, the Y axis will span from zero to the maximum data value.</li>
-	 * <li>If all values are <=0, the Y axis will span from zero to the minimum data value.</li>
+	 * <li>If all values are &gt;=0, the Y axis will span from zero to the maximum data value.</li>
+	 * <li>If all values are &lt;=0, the Y axis will span from zero to the minimum data value.</li>
 	 * <li>If values are both positive and negative, the Y axis will range from the series maximum to the series
 	 * minimum.</li>
 	 * </ul>

@@ -47,7 +47,7 @@ public class BarChartOptions extends CoreOptions {
 	/**
 	 * Sets annotation display settings.
 	 * 
-	 * @param annotations
+	 * @param annotations todo
 	 */
 	public final native void setAnnotations(Annotations annotations) /*-{
 		this.annotations = annotations;
@@ -77,7 +77,7 @@ public class BarChartOptions extends CoreOptions {
 	/**
 	 * Sets diff chart options.
 	 * 
-	 * @param diff
+	 * @param diff todo
 	 */
 	public final native void setDiff(BarChartDiff diff) /*-{
 		this.diff = diff;
@@ -171,7 +171,7 @@ public class BarChartOptions extends CoreOptions {
 	 * The orientation of the chart. When set to 'vertical', rotates the axes of the chart so that (for instance) a
 	 * column chart becomes a bar chart, and an area chart grows rightward instead of up.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final native void setOrientation(Orientation orientation) /*-{
 		this.orientation = orientation;
@@ -181,7 +181,7 @@ public class BarChartOptions extends CoreOptions {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */

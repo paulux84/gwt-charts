@@ -89,7 +89,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	public final void setSelectedValues(boolean... selectedValues) {
 		setSelectedValues(ArrayHelper.createArray(selectedValues));
@@ -101,7 +101,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	public final void setSelectedValues(double... selectedValues) {
 		setSelectedValues(ArrayHelper.createArray(selectedValues));
@@ -113,7 +113,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	public final void setSelectedValues(Object... selectedValues) {
 		setSelectedValues(ArrayHelper.createArray(selectedValues));
@@ -125,7 +125,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	public final void setSelectedValues(String... selectedValues) {
 		setSelectedValues(ArrayHelper.createArray(selectedValues));
@@ -137,7 +137,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	private final native void setSelectedValues(JsArray<JavaScriptObject> selectedValues) /*-{
 		this.selectedValues = selectedValues;
@@ -149,7 +149,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	private final native void setSelectedValues(JsArrayBoolean selectedValues) /*-{
 		this.selectedValues = selectedValues;
@@ -161,7 +161,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	private final native void setSelectedValues(JsArrayNumber selectedValues) /*-{
 		this.selectedValues = selectedValues;
@@ -173,7 +173,7 @@ public class CategoryFilterState extends ControlState {
 	 * by the values option (any extraneous one will be ignored).<br>
 	 * If the CategoryFilter does not allow multiple choice, only the first value of the array is retained.
 	 * 
-	 * @param selectedValues
+	 * @param selectedValues todo
 	 */
 	private final native void setSelectedValues(JsArrayString selectedValues) /*-{
 		this.selectedValues = selectedValues;

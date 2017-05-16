@@ -52,7 +52,7 @@ public class Gradient extends JavaScriptObject {
 	 * If true, the boundary for x1, y1, x2, and y2 is the box.<br>
 	 * If false, it's the entire chart.
 	 * 
-	 * @param useObjectBoundingBoxUnits
+	 * @param useObjectBoundingBoxUnits todo
 	 */
 	public final native void setUseObjectBoundingBoxUnits(boolean useObjectBoundingBoxUnits) /*-{
 		this.useObjectBoundingBoxUnits = useObjectBoundingBoxUnits;

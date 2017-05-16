@@ -47,7 +47,7 @@ public class ControlWrapper<O extends ControlOptions<?>, S extends ControlState>
 	/**
 	 * Creates a new ControlWrapper.
 	 * 
-	 * @param controlWrapperSpec
+	 * @param controlWrapperSpec todo
 	 */
 	public ControlWrapper(ControlWrapperSpec<O, S> controlWrapperSpec) {
 		super();

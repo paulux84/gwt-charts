@@ -27,7 +27,7 @@ public class RegionClickEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public RegionClickEvent(Properties properties) {
 		super(NAME, properties);

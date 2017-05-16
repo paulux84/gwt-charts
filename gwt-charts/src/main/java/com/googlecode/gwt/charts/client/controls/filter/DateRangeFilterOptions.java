@@ -40,7 +40,7 @@ public class DateRangeFilterOptions extends ControlOptions<DateRangeFilterUi> {
 	 * Maximum allowed value for the range higher extent. If undefined, the value will be inferred from the contents of
 	 * the DataTable managed by the control.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final void setMaxValue(Date maxValue) {
 		setMaxValue(DateHelper.getJsDate(maxValue));
@@ -50,7 +50,7 @@ public class DateRangeFilterOptions extends ControlOptions<DateRangeFilterUi> {
 	 * Minimum allowed value for the range lower extent. If undefined, the value will be inferred from the contents of
 	 * the DataTable managed by the control.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final void setMinValue(Date minValue) {
 		setMinValue(DateHelper.getJsDate(minValue));

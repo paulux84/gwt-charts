@@ -26,7 +26,7 @@ public class OnMouseOutEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public OnMouseOutEvent(Properties properties) {
 		super(NAME, properties);

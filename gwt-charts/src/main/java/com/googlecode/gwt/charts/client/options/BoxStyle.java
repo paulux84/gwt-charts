@@ -32,7 +32,7 @@ public class BoxStyle extends JavaScriptObject {
 
 	/**
 	 * Sets attributes for linear gradient fill.
-	 * @param gradient
+	 * @param gradient todo
 	 */
 	public final native void setGradient(Gradient gradient) /*-{
 		this.gradient = gradient;
@@ -41,7 +41,7 @@ public class BoxStyle extends JavaScriptObject {
 	/**
 	 * Sets the x-radius of the corner curvature.
 	 * 
-	 * @param rx
+	 * @param rx todo
 	 */
 	public final native void setRx(int rx) /*-{
 		this.rx = rx;
@@ -50,7 +50,7 @@ public class BoxStyle extends JavaScriptObject {
 	/**
 	 * Sets the y-radius of the corner curvature.
 	 * 
-	 * @param ry
+	 * @param ry todo
 	 */
 	public final native void setRy(int ry) /*-{
 		this.ry = ry;

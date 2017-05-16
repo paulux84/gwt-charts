@@ -60,7 +60,7 @@ public class SteppedAreaChartOptions extends CoreOptions {
 	 * 
 	 * </pre>
 	 * 
-	 * @param aggregationTarget
+	 * @param aggregationTarget todo
 	 */
 	public final native void setAggregationTarget(AggregationTarget aggregationTarget) /*-{
 		this.aggregationTarget = aggregationTarget;
@@ -80,7 +80,7 @@ public class SteppedAreaChartOptions extends CoreOptions {
 	 * If set to true, will connect the steps to form a stepped line. Otherwise, only a top line appears. The default is
 	 * to connect the steps.
 	 * 
-	 * @param connectSteps
+	 * @param connectSteps todo
 	 */
 	public final native void setConnectSteps(boolean connectSteps) /*-{
 		this.connectSteps = connectSteps;
@@ -138,7 +138,7 @@ public class SteppedAreaChartOptions extends CoreOptions {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */

@@ -31,7 +31,7 @@ public class Interval extends JavaScriptObject {
 	/**
 	 * Constructor with a defined style.
 	 * 
-	 * @param style
+	 * @param style todo
 	 * 
 	 * @return a new object
 	 */
@@ -47,7 +47,7 @@ public class Interval extends JavaScriptObject {
 	/**
 	 * Sets the interval bar width.
 	 * 
-	 * @param barWidth
+	 * @param barWidth todo
 	 */
 	public final native void setBarWidth(double barWidth) /*-{
 		this.barWidth = barWidth;
@@ -74,7 +74,7 @@ public class Interval extends JavaScriptObject {
 	/**
 	 * Sets the interval style.
 	 * 
-	 * @param style
+	 * @param style todo
 	 */
 	public final void setStyle(IntervalStyle style) {
 		setStyle(style.getName());

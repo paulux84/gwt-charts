@@ -28,7 +28,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to all cells in the header row (&lt;td&gt; element).
 	 * 
-	 * @param headerCell
+	 * @param headerCell todo
 	 */
 	public final native void setHeaderCell(String headerCell) /*-{
 		this.headerCell = headerCell;
@@ -37,7 +37,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to the table header row (&lt;tr&gt; element).
 	 * 
-	 * @param headerRow
+	 * @param headerRow todo
 	 */
 	public final native void setHeaderRow(String headerRow) /*-{
 		this.headerRow = headerRow;
@@ -46,7 +46,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to the hovered table row (&lt;tr&gt; element).
 	 * 
-	 * @param hoverTableRow
+	 * @param hoverTableRow todo
 	 */
 	public final native void setHoverTableRow(String hoverTableRow) /*-{
 		this.hoverTableRow = hoverTableRow;
@@ -56,7 +56,7 @@ public class CssClassNames extends JavaScriptObject {
 	 * Assigns a class name to odd table rows (&lt;tr&gt; elements).&lt;td&gt;Note: the alternatingRowStyle option must
 	 * be set to true.
 	 * 
-	 * @param oddTableRow
+	 * @param oddTableRow todo
 	 */
 	public final native void setOddTableRow(String oddTableRow) /*-{
 		this.oddTableRow = oddTableRow;
@@ -66,7 +66,7 @@ public class CssClassNames extends JavaScriptObject {
 	 * Assigns a class name to the cells in the row number column (&lt;td&gt; element).<br>
 	 * Note: the showRowNumber option must be set to true.
 	 * 
-	 * @param rowNumberCell
+	 * @param rowNumberCell todo
 	 */
 	public final native void setRowNumberCell(String rowNumberCell) /*-{
 		this.rowNumberCell = rowNumberCell;
@@ -75,7 +75,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to the selected table row (&lt;tr&gt; element).
 	 * 
-	 * @param selectedTableRow
+	 * @param selectedTableRow todo
 	 */
 	public final native void setSelectedTableRow(String selectedTableRow) /*-{
 		this.selectedTableRow = selectedTableRow;
@@ -84,7 +84,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to all non-header table cells (&lt;td&gt; element).
 	 * 
-	 * @param tableCell
+	 * @param tableCell todo
 	 */
 	public final native void setTableCell(String tableCell) /*-{
 		this.tableCell = tableCell;
@@ -93,7 +93,7 @@ public class CssClassNames extends JavaScriptObject {
 	/**
 	 * Assigns a class name to the non-header rows (&lt;tr&gt; elements).
 	 * 
-	 * @param tableRow
+	 * @param tableRow todo
 	 */
 	public final native void setTableRow(String tableRow) /*-{
 		this.tableRow = tableRow;

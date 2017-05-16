@@ -35,7 +35,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Sets animation attributes such as duration and easing.
 	 * 
-	 * @param animation
+	 * @param animation todo
 	 */
 	public final native void setAnimation(Animation animation) /*-{
 		this.animation = animation;
@@ -44,7 +44,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Sets where to place the axis titles, compared to the chart area.
 	 * 
-	 * @param axisTitlesPosition
+	 * @param axisTitlesPosition todo
 	 */
 	public final void setAxisTitlesPosition(AxisTitlesPosition axisTitlesPosition) {
 		setAxisTitlesPosition(axisTitlesPosition.getName());
@@ -53,7 +53,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * The background color for the main area of the chart.
 	 * 
-	 * @param backgroundColor
+	 * @param backgroundColor todo
 	 */
 	public final native void setBackgroundColor(BackgroundColor backgroundColor) /*-{
 		this.backgroundColor = backgroundColor;
@@ -71,7 +71,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Configure the placement and size of the chart area (where the chart itself is drawn, excluding axis and legends).
 	 * 
-	 * @param chartArea
+	 * @param chartArea todo
 	 */
 	public final native void setChartArea(ChartArea chartArea) /*-{
 		this.chartArea = chartArea;
@@ -91,7 +91,7 @@ public abstract class CoreOptions extends Options {
 	 * 'select' or other interaction-based events (but will throw ready or error events), and will not display hovertext
 	 * or otherwise change depending on user input.
 	 * 
-	 * @param enableInteractivity
+	 * @param enableInteractivity todo
 	 */
 	public final native void setEnableInteractivity(boolean enableInteractivity) /*-{
 		this.enableInteractivity = enableInteractivity;
@@ -101,7 +101,7 @@ public abstract class CoreOptions extends Options {
 	 * The default font face for all text in the chart. You can override this using properties for specific chart
 	 * elements.
 	 * 
-	 * @param fontName
+	 * @param fontName todo
 	 */
 	public final native void setFontName(String fontName) /*-{
 		this.fontName = fontName;
@@ -111,7 +111,7 @@ public abstract class CoreOptions extends Options {
 	 * The default font size, in pixels, of all text in the chart. You can override this using properties for specific
 	 * chart elements.
 	 * 
-	 * @param fontSize
+	 * @param fontSize todo
 	 */
 	public final native void setFontSize(double fontSize) /*-{
 		this.fontSize = fontSize;
@@ -130,7 +130,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Configure various horizontal axis elements.
 	 * 
-	 * @param hAxis
+	 * @param hAxis todo
 	 */
 	public final native void setHAxis(HAxis hAxis) /*-{
 		this.hAxis = hAxis;
@@ -139,7 +139,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Configure various aspects of the legend.
 	 * 
-	 * @param legend
+	 * @param legend todo
 	 */
 	public final native void setLegend(Legend legend) /*-{
 		this.legend = legend;
@@ -158,7 +158,7 @@ public abstract class CoreOptions extends Options {
 	 * A theme is a set of predefined option values that work together to achieve a specific chart behavior or visual
 	 * effect.
 	 * 
-	 * @param theme
+	 * @param theme todo
 	 */
 	public final native void setTheme(String theme) /*-{
 		this.theme = theme;
@@ -167,7 +167,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Text to display above the chart.
 	 * 
-	 * @param title
+	 * @param title todo
 	 */
 	public final native void setTitle(String title) /*-{
 		this.title = title;
@@ -176,7 +176,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Where to place the chart title, compared to the chart area.
 	 * 
-	 * @param titlePosition
+	 * @param titlePosition todo
 	 */
 	public final void setTitlePosition(TitlePosition titlePosition) {
 		setTitlePosition(titlePosition.getName());
@@ -185,7 +185,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * An object that specifies the title text style.
 	 * 
-	 * @param titleTextStyle
+	 * @param titleTextStyle todo
 	 */
 	public final native void setTitleTextStyle(TextStyle titleTextStyle) /*-{
 		this.titleTextStyle = titleTextStyle;
@@ -194,7 +194,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * An object with members to configure various tooltip elements.
 	 * 
-	 * @param tooltip
+	 * @param tooltip todo
 	 */
 	public final native void setTooltip(Tooltip tooltip) /*-{
 		this.tooltip = tooltip;
@@ -203,7 +203,7 @@ public abstract class CoreOptions extends Options {
 	/**
 	 * Configure various vertical axis elements.
 	 * 
-	 * @param vAxis
+	 * @param vAxis todo
 	 */
 	public final native void setVAxis(VAxis vAxis) /*-{
 		this.vAxis = vAxis;

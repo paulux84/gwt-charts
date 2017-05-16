@@ -54,7 +54,7 @@ public class StringFilterState extends ControlState {
 	/**
 	 * Sets the text currently entered in the control input field.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final native void setValue(JavaScriptObject value) /*-{
 		this.value = value;
@@ -63,7 +63,7 @@ public class StringFilterState extends ControlState {
 	/**
 	 * Sets the text currently entered in the control input field.
 	 * 
-	 * @param value
+	 * @param value todo
 	 */
 	public final native void setValue(String value) /*-{
 		this.value = value;

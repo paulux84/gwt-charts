@@ -42,7 +42,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Sets the baseline for the axis.
 	 * 
-	 * @param baseline
+	 * @param baseline todo
 	 */
 	public final native void setBaseline(double baseline) /*-{
 		this.baseline = baseline;
@@ -60,7 +60,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * The direction in which the values along the axis grow.
 	 * 
-	 * @param direction
+	 * @param direction todo
 	 */
 	public final void setDirection(Direction direction) {
 		setDirection(direction.getValue());
@@ -82,7 +82,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * </p>
 	 * This option is only supported for a continuous axis.
 	 * 
-	 * @param format
+	 * @param format todo
 	 */
 	public final native void setFormat(String format) /*-{
 		this.format = format;
@@ -91,7 +91,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Configure the gridlines on the axis.
 	 * 
-	 * @param gridlines
+	 * @param gridlines todo
 	 */
 	public final native void setGridlines(Gridlines gridlines) /*-{
 		this.gridlines = gridlines;
@@ -100,7 +100,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Makes the axis a logarithmic scale (requires all values to be positive). Set to true for yes.
 	 * 
-	 * @param logScale
+	 * @param logScale todo
 	 */
 	public final native void setLogScale(boolean logScale) /*-{
 		this.logScale = logScale;
@@ -110,7 +110,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * Moves the max value of the axis to the specified value; this will be rightward in most charts.<br>
 	 * Ignored if this is set to a value smaller than the maximum x-value of the data.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(double maxValue) /*-{
 		this.maxValue = maxValue;
@@ -119,7 +119,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Configure the minor gridlines on the axis.
 	 * 
-	 * @param minorGridlines
+	 * @param minorGridlines todo
 	 */
 	public final native void setMinorGridlines(Gridlines minorGridlines) /*-{
 		this.minorGridlines = minorGridlines;
@@ -129,7 +129,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * Moves the min value of the axis to the specified value; this will be leftward in most charts.<br>
 	 * Ignored if this is set to a value greater than the minimum x-value of the data.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(double minValue) /*-{
 		this.minValue = minValue;
@@ -138,7 +138,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Position of the axis text, relative to the chart area.
 	 * 
-	 * @param position
+	 * @param position todo
 	 */
 	public final void setTextPosition(TextPosition position) {
 		setTextPosition(position.getName());
@@ -147,7 +147,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Specifies the axis text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;
@@ -159,7 +159,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * should have a v property for the tick value, and an optional f property containing the literal string to be
 	 * displayed as the label.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final void setTicks(Date... ticks) {
 		setTicks(ArrayHelper.createArray(ticks));
@@ -171,7 +171,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * should have a v property for the tick value, and an optional f property containing the literal string to be
 	 * displayed as the label.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final void setTicks(double... ticks) {
 		setTicks(ArrayHelper.createArray(ticks));
@@ -183,7 +183,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * should have a v property for the tick value, and an optional f property containing the literal string to be
 	 * displayed as the label.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final void setTicks(int... ticks) {
 		setTicks(ArrayHelper.createArray(ticks));
@@ -195,7 +195,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * should have a v property for the tick value, and an optional f property containing the literal string to be
 	 * displayed as the label.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final void setTicks(Tick... ticks) {
 		setTicks(ArrayHelper.createArray(ticks));
@@ -207,7 +207,7 @@ public abstract class Axis extends JavaScriptObject {
 	 * should have a v property for the tick value, and an optional f property containing the literal string to be
 	 * displayed as the label.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final void setTicks(TimeOfDay... ticks) {
 		setTicks(ArrayHelper.createArray(ticks));
@@ -216,7 +216,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Sets the title of the axis.
 	 * 
-	 * @param title
+	 * @param title todo
 	 */
 	public final native void setTitle(String title) /*-{
 		this.title = title;
@@ -225,7 +225,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Sets the title style of the axis.
 	 * 
-	 * @param style
+	 * @param style todo
 	 */
 	public final native void setTitleTextStyle(TextStyle style) /*-{
 		this.titleTextStyle = style;
@@ -234,7 +234,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Specifies the cropping range of the axis.
 	 * 
-	 * @param viewWindow
+	 * @param viewWindow todo
 	 */
 	public final native void setViewWindow(ViewWindow viewWindow) /*-{
 		this.viewWindow = viewWindow;
@@ -243,7 +243,7 @@ public abstract class Axis extends JavaScriptObject {
 	/**
 	 * Specifies how to scale the horizontal axis to render the values within the chart area.
 	 * 
-	 * @param mode
+	 * @param mode todo
 	 */
 	public final void setViewWindowMode(ViewWindowMode mode) {
 		setViewWindowMode(mode.getName());

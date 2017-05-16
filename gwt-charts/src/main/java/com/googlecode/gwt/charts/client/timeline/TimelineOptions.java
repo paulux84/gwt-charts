@@ -53,7 +53,7 @@ public class TimelineOptions extends Options {
 	/**
 	 * The background color for the main area of the chart.
 	 * 
-	 * @param backgroundColor
+	 * @param backgroundColor todo
 	 */
 	public final native void setBackgroundColor(BackgroundColor backgroundColor) /*-{
 		this.backgroundColor = backgroundColor;
@@ -71,7 +71,7 @@ public class TimelineOptions extends Options {
 	/**
 	 * Specifies the bar label text style.
 	 * 
-	 * @param barLabelStyle
+	 * @param barLabelStyle todo
 	 */
 	public final native void setBarLabelStyle(TextStyle barLabelStyle) /*-{
 		this.timeline.barLabelStyle = barLabelStyle;
@@ -100,7 +100,7 @@ public class TimelineOptions extends Options {
 	 * 'select' or other interaction-based events (but will throw ready or error events), and will not display hovertext
 	 * or otherwise change depending on user input.
 	 * 
-	 * @param enableInteractivity
+	 * @param enableInteractivity todo
 	 */
 	public final native void setEnableInteractivity(boolean enableInteractivity) /*-{
 		this.enableInteractivity = enableInteractivity;
@@ -129,7 +129,7 @@ public class TimelineOptions extends Options {
 	/**
 	 * Specifies the row label text style.
 	 * 
-	 * @param rowLabelStyle
+	 * @param rowLabelStyle todo
 	 */
 	public final native void setRowLabelStyle(TextStyle rowLabelStyle) /*-{
 		this.timeline.rowLabelStyle = rowLabelStyle;
@@ -156,7 +156,7 @@ public class TimelineOptions extends Options {
 	/**
 	 * Colors all bars the same.
 	 * 
-	 * @param singleColor
+	 * @param singleColor todo
 	 */
 	public final native void setSingleColor(String singleColor) /*-{
 		this.timeline.singleColor = singleColor;

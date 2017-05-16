@@ -37,7 +37,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * This option lets you customize the border of the calendar day squares.
 	 * 
-	 * @param cellColor
+	 * @param cellColor todo
 	 */
 	public final native void setCellColor(CellColor cellColor) /*-{
 		this.calendar.cellColor = cellColor;
@@ -64,7 +64,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Sets the distance between the right edge of the week labels and the left edge of the chart day squares.
 	 * 
-	 * @param dayOfWeekRightSpace
+	 * @param dayOfWeekRightSpace todo
 	 */
 	public final native void setDayOfWeekRightSpace(String dayOfWeekRightSpace) /*-{
 		this.calendar.dayOfWeekRightSpace = dayOfWeekRightSpace;
@@ -82,7 +82,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * When the user focuses (say, by hovering) over a day square, calendar charts will highlight the square.
 	 * 
-	 * @param focusedCellColor
+	 * @param focusedCellColor todo
 	 */
 	public final native void setFocusedCellColor(CellColor focusedCellColor) /*-{
 		this.calendar.focusedCellColor = focusedCellColor;
@@ -110,7 +110,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Months with data values are delineated from others using a border in this style.
 	 * 
-	 * @param monthOutlineColor
+	 * @param monthOutlineColor todo
 	 */
 	public final native void setMonthOutlineColor(CellColor monthOutlineColor) /*-{
 		this.calendar.monthOutlineColor = monthOutlineColor;
@@ -119,8 +119,8 @@ public class CalendarOptions extends Options {
 	/**
 	 * Calendar charts use a striped diagonal pattern to indicate that there is no data for a particular day.
 	 * 
-	 * @param backgroundColor
-	 * @param color
+	 * @param backgroundColor todo
+	 * @param color todo
 	 */
 	public final native void setNoDataPattern(String backgroundColor, String color) /*-{
 		this.noDataPattern = {};
@@ -131,7 +131,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Text to display above the chart.
 	 * 
-	 * @param title
+	 * @param title todo
 	 */
 	public final native void setTitle(String title) /*-{
 		this.title = title;
@@ -140,7 +140,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Sets the number of pixels between the bottom of the month labels and the top of the day squares.
 	 * 
-	 * @param underMonthSpace
+	 * @param underMonthSpace todo
 	 */
 	public final native void setUnderMonthSpace(String underMonthSpace) /*-{
 		this.calendar.underMonthSpace = underMonthSpace;
@@ -149,7 +149,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Sets the number of pixels between the bottom-most year label and the bottom of the chart.
 	 * 
-	 * @param underYearSpace
+	 * @param underYearSpace todo
 	 */
 	public final native void setUnderYearSpace(String underYearSpace) /*-{
 		this.calendar.underYearSpace = underYearSpace;
@@ -158,7 +158,7 @@ public class CalendarOptions extends Options {
 	/**
 	 * Months with data values are delineated from others using a border in this style.
 	 * 
-	 * @param unusedMonthOutlineColor
+	 * @param unusedMonthOutlineColor todo
 	 */
 	public final native void setUnusedMonthOutlineColor(CellColor unusedMonthOutlineColor) /*-{
 		this.calendar.unusedMonthOutlineColor = unusedMonthOutlineColor;

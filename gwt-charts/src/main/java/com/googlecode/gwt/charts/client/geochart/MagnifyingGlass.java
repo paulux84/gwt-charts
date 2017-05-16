@@ -36,7 +36,7 @@ public class MagnifyingGlass extends JavaScriptObject {
 	 * Note: this feature is not supported in browsers that do not support SVG, i.e. Internet Explorer version 8 or
 	 * earlier.
 	 * 
-	 * @param enable
+	 * @param enable todo
 	 */
 	public final native void setEnable(boolean enable) /*-{
 		this.enable = enable;
@@ -45,7 +45,7 @@ public class MagnifyingGlass extends JavaScriptObject {
 	/**
 	 * The zoom factor of the magnifying glass. Can be any number greater than 0.
 	 * 
-	 * @param zoomFactor
+	 * @param zoomFactor todo
 	 */
 	public final native void setZoomFactor(double zoomFactor) /*-{
 		this.zoomFactor = zoomFactor;

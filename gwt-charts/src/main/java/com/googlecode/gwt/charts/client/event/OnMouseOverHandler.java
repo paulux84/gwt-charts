@@ -32,7 +32,7 @@ public abstract class OnMouseOverHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onMouseOver(OnMouseOverEvent event);
 }

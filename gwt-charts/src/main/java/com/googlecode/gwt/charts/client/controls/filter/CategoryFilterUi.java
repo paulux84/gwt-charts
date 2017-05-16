@@ -36,7 +36,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether multiple values can be selected, rather than just one.
 	 * 
-	 * @param allowMultiple
+	 * @param allowMultiple todo
 	 */
 	public final native void setAllowMultiple(boolean allowMultiple) /*-{
 		this.allowMultiple = allowMultiple;
@@ -47,7 +47,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	 * available ones. During control initialization, if the option is set to false and no selectedValues state is
 	 * given, the first value from the avaiable ones is automatically seleted.
 	 * 
-	 * @param allowNone
+	 * @param allowNone todo
 	 */
 	public final native void setAllowNone(boolean allowNone) /*-{
 		this.allowNone = allowNone;
@@ -57,7 +57,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	 * Whether the user is allowed to type in a text field to narrow down the list of possible choices (via an
 	 * autocompleter), or not.
 	 * 
-	 * @param allowTyping
+	 * @param allowTyping todo
 	 */
 	public final native void setAllowTyping(boolean allowTyping) /*-{
 		this.allowTyping = allowTyping;
@@ -66,7 +66,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * The caption to display inside the value picker widget when no item is selected.
 	 * 
-	 * @param caption
+	 * @param caption todo
 	 */
 	public final native void setCaption(String caption) /*-{
 		this.caption = caption;
@@ -75,7 +75,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * The CSS class to assign to the control, for custom styling.
 	 * 
-	 * @param cssClass
+	 * @param cssClass todo
 	 */
 	public final native void setCssClass(String cssClass) /*-{
 		this.cssClass = cssClass;
@@ -86,7 +86,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	 * If unspecified, the label of the column the control operates on
 	 * will be used.
 	 * 
-	 * @param label
+	 * @param label todo
 	 */
 	public final native void setLabel(String label) /*-{
 		this.label = label;
@@ -95,7 +95,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * A separator string appended to the label, to visually separate the label from the category picker.
 	 * 
-	 * @param labelSeparator
+	 * @param labelSeparator todo
 	 */
 	public final native void setLabelSeparator(String labelSeparator) /*-{
 		this.labelSeparator = labelSeparator;
@@ -104,7 +104,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether the label should display above (vertical stacking) or beside (horizontal stacking) the category picker.
 	 * 
-	 * @param labelStacking
+	 * @param labelStacking todo
 	 */
 	public final void setLabelStacking(LabelStacking labelStacking) {
 		setLabelStacking(labelStacking.getName());
@@ -113,7 +113,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * How to display selected values, when multiple selection is allowed.
 	 * 
-	 * @param selectedValuesLayout
+	 * @param selectedValuesLayout todo
 	 */
 	public final void setSelectedValuesLayout(SelectedValuesLayout selectedValuesLayout) {
 		setSelectedValuesLayout(selectedValuesLayout.getName());
@@ -122,7 +122,7 @@ public class CategoryFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether the values to choose from should be sorted.
 	 * 
-	 * @param sortValues
+	 * @param sortValues todo
 	 */
 	public final native void setSortValues(boolean sortValues) /*-{
 		this.sortValues = sortValues;

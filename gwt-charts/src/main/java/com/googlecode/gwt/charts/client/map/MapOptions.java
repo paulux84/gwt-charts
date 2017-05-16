@@ -37,7 +37,7 @@ public class MapOptions extends Options {
 	/**
 	 * If set to true, enables zooming in and out using the mouse scroll wheel.
 	 * 
-	 * @param enableScrollWheel
+	 * @param enableScrollWheel todo
 	 */
 	public final native void setEnableScrollWheel(boolean enableScrollWheel) /*-{
 		this.enableScrollWheel = enableScrollWheel;
@@ -46,7 +46,7 @@ public class MapOptions extends Options {
 	/**
 	 * If showLine is true, defines the line color. For example: '#800000'.
 	 * 
-	 * @param lineColor
+	 * @param lineColor todo
 	 */
 	public final native void setLineColor(String lineColor) /*-{
 		this.lineColor = lineColor;
@@ -55,7 +55,7 @@ public class MapOptions extends Options {
 	/**
 	 * If showLine is true, defines the line width (in pixels).
 	 * 
-	 * @param lineWidth
+	 * @param lineWidth todo
 	 */
 	public final native void setLineWidth(String lineWidth) /*-{
 		this.lineWidth = lineWidth;
@@ -64,7 +64,7 @@ public class MapOptions extends Options {
 	/**
 	 * The type of map to show.
 	 * 
-	 * @param mapType
+	 * @param mapType todo
 	 */
 	public final void setMapType(MapType mapType) {
 		setMapType(mapType.getName());
@@ -73,7 +73,7 @@ public class MapOptions extends Options {
 	/**
 	 * If set to true, shows a Google Maps polyline through all the points.
 	 * 
-	 * @param showLine
+	 * @param showLine todo
 	 */
 	public final native void setShowLine(boolean showLine) /*-{
 		this.showLine = showLine;
@@ -82,7 +82,7 @@ public class MapOptions extends Options {
 	/**
 	 * If set to true, shows the location description as a tooltip when the mouse is positioned above a point marker.
 	 * 
-	 * @param showTip
+	 * @param showTip todo
 	 */
 	public final native void setShowTip(boolean showTip) /*-{
 		this.showTip = showTip;
@@ -92,7 +92,7 @@ public class MapOptions extends Options {
 	 * Show a map type selector that enables the viewer to switch between [map, satellite, hybrid, terrain]. When
 	 * useMapTypeControl is false (default) no selector is presented and the type is determined by the mapType option.
 	 * 
-	 * @param useMapTypeControl
+	 * @param useMapTypeControl todo
 	 */
 	public final native void setUseMapTypeControl(boolean useMapTypeControl) /*-{
 		this.useMapTypeControl = useMapTypeControl;

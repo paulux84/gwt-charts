@@ -47,7 +47,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * The background color for the main area of the chart.
 	 * 
-	 * @param backgroundColor
+	 * @param backgroundColor todo
 	 */
 	public final native void setBackgroundColor(BackgroundColor backgroundColor) /*-{
 		this.backgroundColor = backgroundColor;
@@ -64,7 +64,7 @@ public class GeoChartOptions extends Options {
 
 	/**
 	 * 
-	 * @param colorAxis
+	 * @param colorAxis todo
 	 */
 	public final native void setColorAxis(GeoChartColorAxis colorAxis) /*-{
 		this.colorAxis = colorAxis;
@@ -73,7 +73,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * Colors to assign to regions with no associated data.
 	 * 
-	 * @param datalessRegionColor
+	 * @param datalessRegionColor todo
 	 */
 	public final native void setDatalessRegionColor(String datalessRegionColor) /*-{
 		this.datalessRegionColor = datalessRegionColor;
@@ -82,7 +82,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * Which type of geochart this is. The DataTable format must match the value specified.
 	 * 
-	 * @param displayMode
+	 * @param displayMode todo
 	 */
 	public final void setDisplayMode(DisplayMode displayMode) {
 		setDisplayMode(displayMode.getName());
@@ -94,7 +94,7 @@ public class GeoChartOptions extends Options {
 	 * 
 	 * The default is true in region mode, and false in marker mode.
 	 * 
-	 * @param enableRegionInteractivity
+	 * @param enableRegionInteractivity todo
 	 */
 	public final native void setEnableRegionInteractivity(boolean enableRegionInteractivity) /*-{
 		this.enableRegionInteractivity = enableRegionInteractivity;
@@ -108,7 +108,7 @@ public class GeoChartOptions extends Options {
 	 * If false, the geochart will be stretched to the exact size of the chart as specified by the width and height
 	 * options.
 	 * 
-	 * @param keepAspectRatio
+	 * @param keepAspectRatio todo
 	 */
 	public final native void setKeepAspectRatio(boolean keepAspectRatio) /*-{
 		this.keepAspectRatio = keepAspectRatio;
@@ -117,7 +117,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * An object with members to configure various aspects of the legend, or 'none', if no legend should appear.
 	 * 
-	 * @param legend
+	 * @param legend todo
 	 */
 	public final native void setLegend(GeoChartLegend legend) /*-{
 		this.legend = legend;
@@ -126,7 +126,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * Configure various aspects of the magnifying glass.
 	 * 
-	 * @param magnifyingGlass
+	 * @param magnifyingGlass todo
 	 */
 	public final native void setMagnifyingGlass(MagnifyingGlass magnifyingGlass) /*-{
 		this.magnifyingGlass = magnifyingGlass;
@@ -135,7 +135,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * The opacity of the markers, where 0.0 is fully transparent and 1.0 is fully opaque.
 	 * 
-	 * @param markerOpacity
+	 * @param markerOpacity todo
 	 */
 	public final native void setMarkerOpacity(double markerOpacity) /*-{
 		this.markerOpacity = markerOpacity;
@@ -153,8 +153,9 @@ public class GeoChartOptions extends Options {
 	 * <li>A state in the United States, specified by its <a href="http://en.wikipedia.org/wiki/ISO_3166-2:US">ISO
 	 * 3166-2:US</a> code, e.g., "US-AL" for Alabama. Note that the resolution option must be set to either PROVINCES or
 	 * METROS.</li>
+	 * </ul>
 	 * 
-	 * @param region
+	 * @param region todo
 	 */
 	public final native void setRegion(String region) /*-{
 		this.region = region;
@@ -163,7 +164,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * Sets the resolution of the geochart borders.
 	 * 
-	 * @param resolution
+	 * @param resolution todo
 	 */
 	public final void setResolution(Resolution resolution) {
 		setResolution(resolution.getName());
@@ -172,7 +173,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * An object with members to configure how values are associated with bubble size.
 	 * 
-	 * @param sizeAxis
+	 * @param sizeAxis todo
 	 */
 	public final native void setSizeAxis(SizeAxis sizeAxis) /*-{
 		this.sizeAxis = sizeAxis;
@@ -181,7 +182,7 @@ public class GeoChartOptions extends Options {
 	/**
 	 * An object with members to configure various tooltip elements.
 	 * 
-	 * @param tooltip
+	 * @param tooltip todo
 	 */
 	public final native void setTooltip(GeoChartTooltip tooltip) /*-{
 		this.tooltip = tooltip;

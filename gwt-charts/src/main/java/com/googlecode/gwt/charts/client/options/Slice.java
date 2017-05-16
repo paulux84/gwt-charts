@@ -51,7 +51,7 @@ public class Slice extends JavaScriptObject {
 	/**
 	 * An object that specifies the slice text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;

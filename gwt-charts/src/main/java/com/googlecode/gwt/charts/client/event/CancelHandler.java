@@ -32,7 +32,7 @@ public abstract class CancelHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onCancel(CancelEvent event);
 }

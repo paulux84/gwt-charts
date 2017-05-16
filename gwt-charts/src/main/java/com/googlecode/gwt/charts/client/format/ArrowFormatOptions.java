@@ -35,7 +35,7 @@ public class ArrowFormatOptions extends JavaScriptObject {
 	 * will include a green up arrow; if the cell value is lower, it will include a red down arrow; if the same, no
 	 * arrow.
 	 * 
-	 * @param base
+	 * @param base todo
 	 */
 	public final native void setBase(double base) /*-{
 		this.base = base;

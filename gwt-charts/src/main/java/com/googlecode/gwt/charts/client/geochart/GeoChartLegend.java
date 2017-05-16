@@ -28,7 +28,7 @@ public class GeoChartLegend extends JavaScriptObject {
 	 * A format string for numeric labels. This is a subset of the ICU pattern set. For instance, {numberFormat:'.##'}
 	 * will display values "10.66", "10.6", and "10.0" for values 10.666, 10.6, and 10.
 	 * 
-	 * @param numberFormat
+	 * @param numberFormat todo
 	 */
 	public final native void setNumberFormat(String numberFormat) /*-{
 		this.numberFormat = numberFormat;
@@ -37,7 +37,7 @@ public class GeoChartLegend extends JavaScriptObject {
 	/**
 	 * Specifies the legend text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;

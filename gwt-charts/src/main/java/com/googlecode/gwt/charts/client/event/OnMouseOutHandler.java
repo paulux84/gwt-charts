@@ -32,7 +32,7 @@ public abstract class OnMouseOutHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onMouseOutEvent(OnMouseOutEvent event);
 }

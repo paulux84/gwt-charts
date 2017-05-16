@@ -37,7 +37,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	 * The amount to increment for block increments of the range extents. A block increment is equivalent to using the
 	 * pgUp and pgDown keys to move the slider thumbs.
 	 * 
-	 * @param blockIncrement
+	 * @param blockIncrement todo
 	 */
 	public final native void setBlockIncrement(double blockIncrement) /*-{
 		this.blockIncrement = blockIncrement;
@@ -46,7 +46,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * The CSS class to assign to the control, for custom styling.
 	 * 
-	 * @param cssClass
+	 * @param cssClass todo
 	 */
 	public final native void setCssClass(String cssClass) /*-{
 		this.cssClass = cssClass;
@@ -56,7 +56,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	 * The label to display next to the slider. If unspecified, the label of the column the control operates on will be
 	 * used.
 	 * 
-	 * @param label
+	 * @param label todo
 	 */
 	public final native void setLabel(String label) /*-{
 		this.label = label;
@@ -65,7 +65,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * A separator string appended to the label, to visually separate the label from the slider.
 	 * 
-	 * @param labelSeparator
+	 * @param labelSeparator todo
 	 */
 	public final native void setLabelSeparator(String labelSeparator) /*-{
 		this.labelSeparator = labelSeparator;
@@ -74,7 +74,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether the label should display above (vertical stacking) or beside (horizontal stacking) the slider.
 	 * 
-	 * @param labelStacking
+	 * @param labelStacking todo
 	 */
 	public final void setLabelStacking(LabelStacking labelStacking) {
 		setLabelStacking(labelStacking.getName());
@@ -83,7 +83,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * The slider orientation.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final void setOrientation(Orientation orientation) {
 		setOrientation(orientation.getName());
@@ -92,7 +92,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether to have labels next to the slider displaying extents of the selected range.
 	 * 
-	 * @param showRangeValues
+	 * @param showRangeValues todo
 	 */
 	public final native void setShowRangeValues(boolean showRangeValues) /*-{
 		this.showRangeValues = showRangeValues;
@@ -101,7 +101,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	/**
 	 * The number of ticks (fixed positions in the range bar) the slider thumbs can occupy.
 	 * 
-	 * @param ticks
+	 * @param ticks todo
 	 */
 	public final native void setTicks(int ticks) /*-{
 		this.ticks = ticks;
@@ -111,7 +111,7 @@ public class NumberRangeFilterUi extends ControlOptionsUi {
 	 * The amount to increment for unit increments of the range extents. A unit increment is equivalent to using the
 	 * arrow keys to move a slider thumb.
 	 * 
-	 * @param unitIncrement
+	 * @param unitIncrement todo
 	 */
 	public final native void setUnitIncrement(double unitIncrement) /*-{
 		this.unitIncrement = unitIncrement;

@@ -70,7 +70,7 @@ public class AreaChartOptions extends CoreOptions {
 	 * 
 	 * </pre>
 	 * 
-	 * @param aggregationTarget
+	 * @param aggregationTarget todo
 	 */
 	public final native void setAggregationTarget(AggregationTarget aggregationTarget) /*-{
 		this.aggregationTarget = aggregationTarget;
@@ -79,7 +79,7 @@ public class AreaChartOptions extends CoreOptions {
 	/**
 	 * Sets annotation display settings.
 	 * 
-	 * @param annotations
+	 * @param annotations todo
 	 */
 	public final native void setAnnotations(Annotations annotations) /*-{
 		this.annotations = annotations;
@@ -98,7 +98,7 @@ public class AreaChartOptions extends CoreOptions {
 	/**
 	 * Sets the crosshair properties for the chart.
 	 * 
-	 * @param crosshair
+	 * @param crosshair todo
 	 */
 	public final native void setCrosshair(Crosshair crosshair) /*-{
 		this.crosshair = crosshair;
@@ -119,7 +119,7 @@ public class AreaChartOptions extends CoreOptions {
 	/**
 	 * Sets the explorer properties for the chart.
 	 * 
-	 * @param explorer
+	 * @param explorer todo
 	 */
 	public final native void setExplorer(Explorer explorer) /*-{
 		this.explorer = explorer;
@@ -178,7 +178,7 @@ public class AreaChartOptions extends CoreOptions {
 	 * The first number indicates the length of a dash, and the second indicates the gap after it. If there is a third
 	 * number, that's the length of the next dash, and a fourth number, if present, is the length of the next gap.
 	 * 
-	 * @param lineDashStyle
+	 * @param lineDashStyle todo
 	 */
 	public final void setLineDashStyle(int... lineDashStyle) {
 		setLineDashStyle(ArrayHelper.createArray(lineDashStyle));
@@ -198,7 +198,7 @@ public class AreaChartOptions extends CoreOptions {
 	 * The orientation of the chart. When set to 'vertical', rotates the axes of the chart so that (for instance) a
 	 * column chart becomes a bar chart, and an area chart grows rightward instead of up.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final native void setOrientation(Orientation orientation) /*-{
 		this.orientation = orientation;
@@ -207,7 +207,7 @@ public class AreaChartOptions extends CoreOptions {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShape pointShape) /*-{
 		this.pointShape = pointShape;
@@ -216,7 +216,7 @@ public class AreaChartOptions extends CoreOptions {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShapeType pointShape) /*-{
 		this.pointShape = pointShape;
@@ -236,7 +236,7 @@ public class AreaChartOptions extends CoreOptions {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */

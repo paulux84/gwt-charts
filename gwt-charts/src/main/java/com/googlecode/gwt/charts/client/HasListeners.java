@@ -18,8 +18,8 @@ import com.googlecode.gwt.charts.client.event.EventHandler;
 import com.googlecode.gwt.charts.client.event.HandlerRef;
 
 /**
- * This class provides event support like described in <a
- * href="https://developers.google.com/chart/interactive/docs/reference#events">Chart Events</a>.<br>
+ * This class provides event support like described in
+ * <a href="https://developers.google.com/chart/interactive/docs/reference#events">Chart Events</a>.<br>
  * Most visualizations fire events to indicate something has occured. As a user of the chart, you would often want to
  * listen to these events. If you code your own visualization, you might also want to trigger such events on your own.
  */
@@ -78,7 +78,7 @@ public class HasListeners extends JavaScriptObject {
 	 * not work for visualizations embedded in a gadget. You should document what event arguments, if any, will be
 	 * passed to the handling function.
 	 * 
-	 * @param chartObject 
+	 * @param chartObject todo
 	 * @param eventName The string name of the event to listen for.
 	 * @param handler The event handler to call when this visualization fires the eventName event
 	 * @return A listener handler for the new listener. Can be used for removing by calling

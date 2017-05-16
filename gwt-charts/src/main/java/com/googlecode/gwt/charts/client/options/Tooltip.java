@@ -43,7 +43,7 @@ public class Tooltip extends JavaScriptObject {
 	 * If true, show colored squares next to the series information in the tooltip. The default is true when focusTarget
 	 * is set to 'category', otherwise the default is false.
 	 * 
-	 * @param showColorCode
+	 * @param showColorCode todo
 	 */
 	public final native void setShowColorCode(boolean showColorCode) /*-{
 		this.showColorCode = showColorCode;
@@ -52,7 +52,7 @@ public class Tooltip extends JavaScriptObject {
 	/**
 	 * An object that specifies the tooltip text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;

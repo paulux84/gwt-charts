@@ -52,7 +52,7 @@ public class HAxis extends Axis {
 	 * allow label cropping.<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param allowContainerBoundaryTextCufoff
+	 * @param allowContainerBoundaryTextCufoff todo
 	 */
 	public final native void setAllowContainerBoundaryTextCufoff(boolean allowContainerBoundaryTextCufoff) /*-{
 		this.allowContainerBoundaryTextCufoff = allowContainerBoundaryTextCufoff;
@@ -64,7 +64,7 @@ public class HAxis extends Axis {
 	 * levels to use; the server can use fewer levels, if labels can fit without overlapping.<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param levels
+	 * @param levels todo
 	 */
 	public final native void setMaxAlternation(int levels) /*-{
 		this.maxAlternation = levels;
@@ -75,7 +75,7 @@ public class HAxis extends Axis {
 	 * nuber of lines is, by default, limited by the height of the available space.<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param maxTextLines
+	 * @param maxTextLines todo
 	 */
 	public final native void setMaxTextLines(int maxTextLines) /*-{
 		this.maxTextLines = maxTextLines;
@@ -87,7 +87,7 @@ public class HAxis extends Axis {
 	 * property.<br>
 	 * This option is only supported for a continuous axis.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final void setMaxValue(Date maxValue) {
 		setMaxValueDate(DateHelper.getJsDate(maxValue));
@@ -99,7 +99,7 @@ public class HAxis extends Axis {
 	 * label-unclutter measures will be applied (e.g, truncating the lables or dropping some of them).<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param minTextSpacing
+	 * @param minTextSpacing todo
 	 */
 	public final native void setMinTextSpacing(int minTextSpacing) /*-{
 		this.minTextSpacing = minTextSpacing;
@@ -111,7 +111,7 @@ public class HAxis extends Axis {
 	 * property.<br>
 	 * This option is only supported for a continuous axis.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final void setMinValue(Date minValue) {
 		setMinValueDate(DateHelper.getJsDate(minValue));
@@ -122,7 +122,7 @@ public class HAxis extends Axis {
 	 * on. Default is to try to show as many labels as possible without overlapping.<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param interval
+	 * @param interval todo
 	 */
 	public final native void setShowTextEvery(int interval) /*-{
 		this.showTextEvery = interval;
@@ -134,7 +134,7 @@ public class HAxis extends Axis {
 	 * that this option is available only when the hAxis.textPosition is set to 'out' (which is the default).<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param enabled
+	 * @param enabled todo
 	 */
 	public final native void setSlantedText(boolean enabled) /*-{
 		this.slantedText = enabled;
@@ -145,7 +145,7 @@ public class HAxis extends Axis {
 	 * auto mode, and the chart decided to draw the text horizontally.<br>
 	 * This option is only supported for a discrete axis.
 	 * 
-	 * @param angle
+	 * @param angle todo
 	 */
 	public final native void setSlantedTextAngle(int angle) /*-{
 		this.slantedTextAngle = angle;

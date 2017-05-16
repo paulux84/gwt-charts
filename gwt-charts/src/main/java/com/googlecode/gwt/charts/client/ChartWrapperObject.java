@@ -552,7 +552,7 @@ public class ChartWrapperObject<T extends Options> extends HasListeners {
 	 * setSelection() with the items to remain selected; to deselect all elements, call setSelection(),
 	 * setSelection(null), or setSelection([]).
 	 * 
-	 * @param selection
+	 * @param selection todo
 	 */
 	public final void setSelection(JsArray<Selection> selection) {
 		getChart().setSelection(selection);

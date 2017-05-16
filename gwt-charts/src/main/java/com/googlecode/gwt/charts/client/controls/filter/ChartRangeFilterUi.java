@@ -37,6 +37,8 @@ public class ChartRangeFilterUi extends ControlOptionsUi {
 
 	/**
 	 * Sets a complete options object for a chart.
+	 *
+	 * @param <O> options subclass
 	 * 
 	 * @param chartOptions a complete options object
 	 */
@@ -83,7 +85,7 @@ public class ChartRangeFilterUi extends ControlOptionsUi {
 	 * it is a number (not necessarily an integer). For a date, datetime or timeofday axis, it is an integer that
 	 * specifies the difference in milliseconds.
 	 * 
-	 * @param minRangeSize
+	 * @param minRangeSize todo
 	 */
 	public final native void setMinRangeSize(double minRangeSize) /*-{
 		this.minRangeSize = minRangeSize;
@@ -94,7 +96,7 @@ public class ChartRangeFilterUi extends ControlOptionsUi {
 	 * it is a number (not necessarily an integer). For a date, datetime or timeofday axis, it is an integer that
 	 * specifies the difference in milliseconds.
 	 * 
-	 * @param minRangeSize
+	 * @param minRangeSize todo
 	 */
 	public final native void setMinRangeSize(int minRangeSize) /*-{
 		this.minRangeSize = minRangeSize;
@@ -104,7 +106,7 @@ public class ChartRangeFilterUi extends ControlOptionsUi {
 	 * If true, range thumbs are snapped to the nearest data points. In this case, the end points of the range returned
 	 * by getState() are necessarily values in the data table.
 	 * 
-	 * @param snapToData
+	 * @param snapToData todo
 	 */
 	public final native void setSnapToData(boolean snapToData) /*-{
 		this.snapToData = snapToData;

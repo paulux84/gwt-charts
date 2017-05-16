@@ -59,7 +59,7 @@ public class CategoryFilterOptions extends ControlOptions<CategoryFilterUi> {
 	 * List of object values to choose from.
 	 * They should have a suitable toString() representation for display to the user.
 	 * 
-	 * @param values
+	 * @param values todo
 	 */
 	public final native void setValues(JsArray<JavaScriptObject> values) /*-{
 		this.values = values;
@@ -68,7 +68,7 @@ public class CategoryFilterOptions extends ControlOptions<CategoryFilterUi> {
 	/**
 	 * List of boolean values to choose from.
 	 * 
-	 * @param values
+	 * @param values todo
 	 */
 	public final native void setValues(JsArrayBoolean values) /*-{
 		this.values = values;
@@ -77,7 +77,7 @@ public class CategoryFilterOptions extends ControlOptions<CategoryFilterUi> {
 	/**
 	 * List of number values to choose from.
 	 * 
-	 * @param values
+	 * @param values todo
 	 */
 	public final native void setValues(JsArrayNumber values) /*-{
 		this.values = values;
@@ -86,7 +86,7 @@ public class CategoryFilterOptions extends ControlOptions<CategoryFilterUi> {
 	/**
 	 * List of string values to choose from.
 	 * 
-	 * @param values
+	 * @param values todo
 	 */
 	public final native void setValues(JsArrayString values) /*-{
 		this.values = values;

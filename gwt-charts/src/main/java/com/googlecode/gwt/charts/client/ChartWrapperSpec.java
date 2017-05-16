@@ -106,7 +106,7 @@ public class ChartWrapperSpec<T extends Options> extends JavaScriptObject {
 	/**
 	 * Sets the options for the visualization.
 	 * 
-	 * @param options
+	 * @param options todo
 	 */
 	public final native void setOptions(T options) /*-{
 		this.options = options;
@@ -137,7 +137,7 @@ public class ChartWrapperSpec<T extends Options> extends JavaScriptObject {
 	 * dataTable or dataSourceUrl parameter. You can pass in either a string or DataView initializer object, like that
 	 * returned by dataview.toJSON().
 	 * 
-	 * @param view
+	 * @param view todo
 	 */
 	// TODO review this
 	public final native void setView(JsArrayString view) /*-{

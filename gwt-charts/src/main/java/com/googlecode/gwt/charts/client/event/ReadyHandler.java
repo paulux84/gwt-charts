@@ -32,7 +32,7 @@ public abstract class ReadyHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onReady(ReadyEvent event);
 }

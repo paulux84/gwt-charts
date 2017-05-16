@@ -34,7 +34,7 @@ public class Annotations extends JavaScriptObject {
 	/**
 	 * Controls the appearance of the boxes surrounding annotations.
 	 * 
-	 * @param boxStyle
+	 * @param boxStyle todo
 	 */
 	public final native void setBoxStyle(BoxStyle boxStyle) /*-{
 		this.boxStyle = boxStyle;
@@ -46,7 +46,7 @@ public class Annotations extends JavaScriptObject {
 	 * on light. If you set annotations.highContrast to false and don't specify your own annotation color, Google Charts
 	 * will use the default series color for the annotation.
 	 * 
-	 * @param highContrast
+	 * @param highContrast todo
 	 */
 	public final native void setHighContrast(boolean highContrast) /*-{
 		this.highContrast = highContrast;
@@ -55,7 +55,7 @@ public class Annotations extends JavaScriptObject {
 	/**
 	 * Controls the appearance of the text of the annotation.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(AnnotationTextStyle textStyle) /*-{
 		this.textStyle = textStyle;

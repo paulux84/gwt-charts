@@ -48,7 +48,7 @@ public class DateFormatOptions extends JavaScriptObject {
 	/**
 	 * A quick formatting option for the date.
 	 * 
-	 * @param formatType
+	 * @param formatType todo
 	 */
 	public final void setFormatType(FormatType formatType) {
 		setFormatType(formatType.getName());
@@ -59,7 +59,7 @@ public class DateFormatOptions extends JavaScriptObject {
 	 * 
 	 * @see <a href="http://icu-project.org/apiref/icu4j/com/ibm/icu/text/SimpleDateFormat.html">java SimpleDateFormat
 	 *      class</a>
-	 * @param pattern
+	 * @param pattern todo
 	 */
 	public final native void setPattern(String pattern) /*-{
 		this.pattern = pattern;
@@ -68,7 +68,7 @@ public class DateFormatOptions extends JavaScriptObject {
 	/**
 	 * A custom format pattern to apply to the value, similar to the ICU date and time format.
 	 * 
-	 * @param timeZone
+	 * @param timeZone todo
 	 */
 	public final native void setTimeZone(int timeZone) /*-{
 		this.timeZone = timeZone;

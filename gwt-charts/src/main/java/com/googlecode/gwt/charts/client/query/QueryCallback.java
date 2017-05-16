@@ -18,7 +18,7 @@ package com.googlecode.gwt.charts.client.query;
 public interface QueryCallback {
 	/**
 	 * 
-	 * @param queryResponse
+	 * @param queryResponse todo
 	 */
 	void onResponse(QueryResponse queryResponse);
 }

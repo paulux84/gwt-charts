@@ -28,7 +28,7 @@ public class SortEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public SortEvent(Properties properties) {
 		super(NAME, properties);

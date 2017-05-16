@@ -35,7 +35,7 @@ public class NumberRangeFilterOptions extends ControlOptions<NumberRangeFilterUi
 	 * Maximum allowed value for the range higher extent. If undefined, the value will be inferred from the contents of
 	 * the DataTable managed by the control.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(double maxValue) /*-{
 		this.maxValue = maxValue;
@@ -45,7 +45,7 @@ public class NumberRangeFilterOptions extends ControlOptions<NumberRangeFilterUi
 	 * Minimum allowed value for the range lower extent. If undefined, the value will be inferred from the contents of
 	 * the DataTable managed by the control.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(double minValue) /*-{
 		this.minValue = minValue;

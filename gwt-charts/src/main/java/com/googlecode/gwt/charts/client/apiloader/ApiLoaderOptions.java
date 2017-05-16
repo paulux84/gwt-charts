@@ -24,7 +24,7 @@ public class ApiLoaderOptions extends JavaScriptObject {
 	/**
 	 * The base domain from which to load the API.
 	 * 
-	 * @param baseDomain
+	 * @param baseDomain todo
 	 */
 	public final native void setBaseDomain(String baseDomain) /*-{
 		this.base_domain = baseDomain;
@@ -34,7 +34,7 @@ public class ApiLoaderOptions extends JavaScriptObject {
 	 * The function to call once the script has loaded. If using the Auto-loading feature, this must specify a function
 	 * name, not a function reference.
 	 * 
-	 * @param onLoad
+	 * @param onLoad todo
 	 */
 	public final native void setCallback(Runnable onLoad) /*-{
 		this.callback = function() {
@@ -45,7 +45,7 @@ public class ApiLoaderOptions extends JavaScriptObject {
 	/**
 	 * The language in which to localize the API's UI controls. This is specified as a ISO639 language code.
 	 * 
-	 * @param language
+	 * @param language todo
 	 */
 	public final native void setLanguage(String language) /*-{
 		this.language = language;
@@ -63,9 +63,9 @@ public class ApiLoaderOptions extends JavaScriptObject {
 
 	/**
 	 * Specific parameters supported by a particular API (and usually very specific to the API). An alternative to
-	 * passing in a parameter via a <script> tag.
+	 * passing in a parameter via a &lt;script&gt; tag.
 	 * 
-	 * @param otherParams
+	 * @param otherParams todo
 	 */
 	public final native void setOtherParams(String otherParams) /*-{
 		this.other_params = otherParams;
@@ -75,7 +75,7 @@ public class ApiLoaderOptions extends JavaScriptObject {
 	 * An array of strings specifying related packages to be read in along with the core API. For example, you could
 	 * load "piechart" and "table" along with the Visualization API.
 	 * 
-	 * @param packages
+	 * @param packages todo
 	 */
 	public final void setPackages(String... packages) {
 		setPackages(ArrayHelper.createArray(packages));

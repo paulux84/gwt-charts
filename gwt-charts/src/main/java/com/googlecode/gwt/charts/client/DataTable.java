@@ -108,7 +108,7 @@ public class DataTable extends DataSource {
 	 * Adds a new column to the data table. All the cells of the new column are assigned a null value
 	 * 
 	 * @param type the data type of the values of the column
-	 * @param label
+	 * @param label the label
 	 * @return the index of the new column
 	 */
 	public final int addColumn(ColumnType type, String label) {
@@ -131,7 +131,7 @@ public class DataTable extends DataSource {
 	}
 
 	/**
-	 * @param dataColumn
+	 * @param dataColumn the dataColumn
 	 * @return the index of the new column
 	 */
 	public final native int addColumn(DataColumn dataColumn) /*-{
@@ -320,7 +320,7 @@ public class DataTable extends DataSource {
 	/**
 	 * Insert the specified number of empty rows at the specified row index.
 	 * 
-	 * @param <E>
+	 * @param <E> subtype of JsArrayMixed
 	 * 
 	 * @param rowIndex is the index number where to insert the new row(s). Rows will be added, starting at the index
 	 *        number specified.
@@ -396,7 +396,7 @@ public class DataTable extends DataSource {
 	 * @param rowIndex should be a number with a valid row index.
 	 * @param columnIndex should be a number greater than or equal to zero, and less than the number of columns
 	 * @param value the value assigned to the specified cell
-	 * @param formattedValue
+	 * @param formattedValue the already formatted value
 	 */
 	public final native void setCell(int rowIndex, int columnIndex, boolean value, String formattedValue) /*-{
 		this.setCell(rowIndex, columnIndex, value, formattedValue);
@@ -433,7 +433,7 @@ public class DataTable extends DataSource {
 	 * @param rowIndex should be a number with a valid row index.
 	 * @param columnIndex should be a number greater than or equal to zero, and less than the number of columns
 	 * @param value the value assigned to the specified cell
-	 * @param formattedValue
+	 * @param formattedValue the already formatted value
 	 */
 	public final void setCell(int rowIndex, int columnIndex, Date value, String formattedValue) {
 		this.setCell(rowIndex, columnIndex, DateHelper.getJsDate(value), formattedValue);
@@ -569,7 +569,7 @@ public class DataTable extends DataSource {
 	 * @param rowIndex The index of the row.
 	 * @param columnIndex The index of the column.
 	 * @param formattedValue The desired String representation of null, such as "", "null", "nil", "N/A", "none", etc.
-	 * @param properties
+	 * @param properties todo
 	 */
 	public final native void setCellNull(int rowIndex, int columnIndex, String formattedValue, Properties properties) /*-{
 		this.setCell(rowIndex, columnIndex, null, formattedValue, properties);

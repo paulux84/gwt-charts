@@ -26,7 +26,7 @@ public class PageEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public PageEvent(Properties properties) {
 		super(NAME, properties);

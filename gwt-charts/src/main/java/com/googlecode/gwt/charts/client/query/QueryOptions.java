@@ -31,7 +31,7 @@ public class QueryOptions extends Properties {
 	/**
 	 * A map of parameters for a makeRequest() query. Used and required only if sendMethod is 'makeRequest'.
 	 * 
-	 * @param params
+	 * @param params todo
 	 */
 	public final native void setMakeRequestParams(JavaScriptObject params) /*-{
 		this.makeRequestParams = params;
@@ -40,7 +40,7 @@ public class QueryOptions extends Properties {
 	/**
 	 * Specifies the method to use to send the query.
 	 * 
-	 * @param sendMethod
+	 * @param sendMethod todo
 	 */
 	public final void setSendMethod(SendMethod sendMethod) {
 		setSendMethod(sendMethod.getName());

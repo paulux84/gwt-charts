@@ -28,7 +28,7 @@ public abstract class ControlOptions<U extends ControlOptionsUi> extends JavaScr
 	 * The column of the datatable the filter should operate upon. It is mandatory to provide either this option or
 	 * filterColumnLabel. If both present, this option takes precedence.
 	 * 
-	 * @param filterColumnIndex
+	 * @param filterColumnIndex todo
 	 */
 	public final native void setFilterColumnIndex(int filterColumnIndex) /*-{
 		this.filterColumnIndex = filterColumnIndex;
@@ -38,7 +38,7 @@ public abstract class ControlOptions<U extends ControlOptionsUi> extends JavaScr
 	 * The label of the column the filter should operate upon. It is mandatory to provide either this option or
 	 * filterColumnIndex. If both present, filterColumnIndex takes precedence.
 	 * 
-	 * @param filterColumnLabel
+	 * @param filterColumnLabel todo
 	 */
 	public final native void setFilterColumnLabel(String filterColumnLabel) /*-{
 		this.filterColumnLabel = filterColumnLabel;
@@ -47,7 +47,7 @@ public abstract class ControlOptions<U extends ControlOptionsUi> extends JavaScr
 	/**
 	 * An object with members to configure various aspects of the control's UI.
 	 * 
-	 * @param ui
+	 * @param ui todo
 	 */
 	public final native void setUi(U ui) /*-{
 		this.ui = ui;

@@ -93,7 +93,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range end.
 	 * 
-	 * @param end
+	 * @param end todo
 	 */
 	public final void setEnd(Date end) {
 		setEnd(DateHelper.getJsDate(end));
@@ -102,7 +102,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range end.
 	 * 
-	 * @param end
+	 * @param end todo
 	 */
 	public final native void setEnd(double end) /*-{
 		this.end = end;
@@ -111,7 +111,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range end.
 	 * 
-	 * @param end
+	 * @param end todo
 	 */
 	public final native void setEnd(TimeOfDay end) /*-{
 		this.end = end;
@@ -120,7 +120,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range start.
 	 * 
-	 * @param start
+	 * @param start todo
 	 */
 	public final void setStart(Date start) {
 		setStart(DateHelper.getJsDate(start));
@@ -129,7 +129,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range start.
 	 * 
-	 * @param start
+	 * @param start todo
 	 */
 	public final native void setStart(double start) /*-{
 		this.start = start;
@@ -138,7 +138,7 @@ public class ChartRangeFilterStateRange extends JavaScriptObject {
 	/**
 	 * Sets the selected range start.
 	 * 
-	 * @param start
+	 * @param start todo
 	 */
 	public final native void setStart(TimeOfDay start) /*-{
 		this.start = start;

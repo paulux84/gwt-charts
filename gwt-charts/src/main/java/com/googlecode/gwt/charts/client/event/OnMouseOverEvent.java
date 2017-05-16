@@ -26,7 +26,7 @@ public class OnMouseOverEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public OnMouseOverEvent(Properties properties) {
 		super(NAME, properties);

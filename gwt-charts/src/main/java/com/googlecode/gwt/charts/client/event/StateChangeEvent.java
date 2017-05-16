@@ -28,7 +28,7 @@ public class StateChangeEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public StateChangeEvent(Properties properties) {
 		super(NAME, properties);

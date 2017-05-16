@@ -33,7 +33,7 @@ public class PatternFormat extends JavaScriptObject {
 	 * the format() method below. To include a literal { or } character, escape it like this: \{ or \}. To include a
 	 * literal \ mark, escape it as \\.
 	 * 
-	 * @param pattern
+	 * @param pattern todo
 	 * @return a new object instance
 	 */
 	public static native PatternFormat create(String pattern) /*-{

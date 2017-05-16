@@ -27,7 +27,7 @@ public class RollUpEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public RollUpEvent(Properties properties) {
 		super(NAME, properties);

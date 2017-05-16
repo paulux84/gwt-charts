@@ -32,7 +32,7 @@ public abstract class RangeChangeHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onRangeChange(RangeChangeEvent event);
 }

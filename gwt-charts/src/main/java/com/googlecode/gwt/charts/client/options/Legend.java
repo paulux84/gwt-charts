@@ -30,7 +30,7 @@ public class Legend extends JavaScriptObject {
 	/**
 	 * Construct with position.
 	 * 
-	 * @param position
+	 * @param position todo
 	 * @return a new object
 	 */
 	public static Legend create(LegendPosition position) {
@@ -47,7 +47,7 @@ public class Legend extends JavaScriptObject {
 	 * The default value depends on the legend's position. For BOTTOM legends, the default is CENTER; other legends
 	 * default to START.
 	 * 
-	 * @param alignment
+	 * @param alignment todo
 	 */
 	public final void setAligment(LegendAlignment alignment) {
 		setAlignment(alignment.getName());
@@ -77,7 +77,7 @@ public class Legend extends JavaScriptObject {
 	/**
 	 * Specifies the legend text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;

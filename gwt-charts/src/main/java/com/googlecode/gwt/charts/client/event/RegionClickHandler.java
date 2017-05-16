@@ -32,7 +32,7 @@ public abstract class RegionClickHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onRegionClick(RegionClickEvent event);
 }

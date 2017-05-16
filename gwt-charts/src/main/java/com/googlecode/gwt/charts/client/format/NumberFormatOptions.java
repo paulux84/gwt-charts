@@ -33,7 +33,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	/**
 	 * A character to use as the decimal marker. The default is a dot (.).
 	 * 
-	 * @param decimalSymbol
+	 * @param decimalSymbol todo
 	 */
 	public final native void setDecimalSymbol(String decimalSymbol) /*-{
 		this.decimalSymbol = decimalSymbol;
@@ -44,7 +44,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	 * than the number contains, it will display zeros for the smaller values. Truncated values will be rounded (5
 	 * rounded up).
 	 * 
-	 * @param fractionDigits
+	 * @param fractionDigits todo
 	 */
 	public final native void setFractionDigits(int fractionDigits) /*-{
 		this.fractionDigits = fractionDigits;
@@ -53,7 +53,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	/**
 	 * A character to be used to group digits to the left of the decimal into sets of three. Default is a comma (,).
 	 * 
-	 * @param groupingSymbol
+	 * @param groupingSymbol todo
 	 */
 	public final native void setGroupingSymbol(String groupingSymbol) /*-{
 		this.groupingSymbol = groupingSymbol;
@@ -63,7 +63,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	 * The text color for negative values. No default value. Values can be any acceptable HTML color value, such as
 	 * "red" or "#FF0000".
 	 * 
-	 * @param negativeColor
+	 * @param negativeColor todo
 	 */
 	public final native void setNegativeColor(String negativeColor) /*-{
 		this.negativeColor = negativeColor;
@@ -72,7 +72,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	/**
 	 * A boolean, where true indicates that negative values should be surrounded by parentheses. Default is true.
 	 * 
-	 * @param negativeParens
+	 * @param negativeParens todo
 	 */
 	public final native void setNegativeParens(boolean negativeParens) /*-{
 		this.negativeParens = negativeParens;
@@ -82,7 +82,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	 * A format string. When provided, all other options are ignored, except negativeColor.
 	 * The format string is a subset of the ICU pattern set.
 	 * 
-	 * @param pattern
+	 * @param pattern todo
 	 */
 	public final native void setPattern(String pattern) /*-{
 		this.pattern = pattern;
@@ -91,7 +91,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	/**
 	 * A string prefix for the value, for example "$".
 	 * 
-	 * @param prefix
+	 * @param prefix todo
 	 */
 	public final native void setPrefix(String prefix) /*-{
 		this.prefix = prefix;
@@ -100,7 +100,7 @@ public class NumberFormatOptions extends JavaScriptObject {
 	/**
 	 * A string suffix for the value, for example "%".
 	 * 
-	 * @param suffix
+	 * @param suffix todo
 	 */
 	public final native void setSuffix(String suffix) /*-{
 		this.suffix = suffix;

@@ -143,7 +143,7 @@ public abstract class CoreChartWidget<T extends Options> extends ChartWidget<T> 
 	 * setSelection() with the items to remain selected; to deselect all elements, call setSelection(),
 	 * setSelection(null), or setSelection([]).
 	 * 
-	 * @param selection
+	 * @param selection todo
 	 */
 	public void setSelection(Selection... selection) {
 		this.selection = ArrayHelper.createArray(selection);

@@ -45,7 +45,7 @@ public abstract class PieChartDiff extends JavaScriptObject {
 	/**
 	 * If true, inverts the behavior so that the oldest data surrounds the newest data.
 	 * 
-	 * @param inCenter
+	 * @param inCenter todo
 	 */
 	public final native void setInCenter(boolean inCenter) /*-{
 		if (!this.oldData) {

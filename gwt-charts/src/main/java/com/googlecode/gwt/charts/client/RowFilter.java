@@ -24,15 +24,15 @@ import java.util.Date;
  * <ul>
  * <li>A value property with a value that must be matched exactly by the cell in the specified column. The value must be
  * the same type as the column; or</li>
- * <li>One or both of the following properties, the same type as the column being filtered:
+ * <li>One or both of the following properties, the same type as the column being filtered:</li>
+ * </ul>
  * <ul>
  * <li>minValue - A minimum value for the cell. The cell value in the specified column must be greater than or equal to
  * this value.</li>
  * <li>maxValue - A maximum value for the cell. The cell value in the specified column must be less than or equal to
  * this value.</li>
  * </ul>
- * </li>
- * 
+ *
  */
 public class RowFilter extends JavaScriptObject {
 	/**
@@ -61,7 +61,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A maximum value for the cell.<br>
 	 * The cell value in the specified column must be less than or equal to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final void setMaxValue(Date maxValue) {
 		setMaxValue(DateHelper.getJsDate(maxValue));
@@ -71,7 +71,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A maximum value for the cell.<br>
 	 * The cell value in the specified column must be less than or equal to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(double maxValue) /*-{
 		this.maxValue = maxValue;
@@ -81,7 +81,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A maximum value for the cell.<br>
 	 * The cell value in the specified column must be less than or equal to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(JavaScriptObject maxValue) /*-{
 		this.maxValue = maxValue;
@@ -91,7 +91,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A maximum value for the cell.<br>
 	 * The cell value in the specified column must be less than or equal to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(String maxValue) /*-{
 		this.maxValue = maxValue;
@@ -101,7 +101,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A maximum value for the cell.<br>
 	 * The cell value in the specified column must be less than or equal to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(TimeOfDay maxValue) /*-{
 		this.maxValue = maxValue;
@@ -111,7 +111,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A minimum value for the cell.<br>
 	 * The cell value in the specified column must be greater than or equal to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final void setMinValue(Date minValue) {
 		setMinValue(DateHelper.getJsDate(minValue));
@@ -121,7 +121,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A minimum value for the cell.<br>
 	 * The cell value in the specified column must be greater than or equal to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(double minValue) /*-{
 		this.minValue = minValue;
@@ -131,7 +131,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A minimum value for the cell.<br>
 	 * The cell value in the specified column must be greater than or equal to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(JavaScriptObject minValue) /*-{
 		this.minValue = minValue;
@@ -141,7 +141,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A minimum value for the cell.<br>
 	 * The cell value in the specified column must be greater than or equal to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(String minValue) /*-{
 		this.minValue = minValue;
@@ -151,7 +151,7 @@ public class RowFilter extends JavaScriptObject {
 	 * A minimum value for the cell.<br>
 	 * The cell value in the specified column must be greater than or equal to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(TimeOfDay minValue) /*-{
 		this.minValue = minValue;

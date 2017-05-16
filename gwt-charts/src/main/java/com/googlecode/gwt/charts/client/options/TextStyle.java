@@ -60,7 +60,7 @@ public class TextStyle extends JavaScriptObject {
 	/**
 	 * Sets the text font size.
 	 * 
-	 * @param fontSize
+	 * @param fontSize todo
 	 */
 	public final native void setFontSize(int fontSize) /*-{
 		this.fontSize = fontSize;

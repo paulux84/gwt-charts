@@ -37,7 +37,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Sets the text color. Specify an HTML color value.
 	 * 
-	 * @param fontColor
+	 * @param fontColor todo
 	 */
 	public final native void setFontColor(String fontColor) /*-{
 		this.fontColor = fontColor;
@@ -46,7 +46,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Sets the font family to use for all text.
 	 * 
-	 * @param fontFamily
+	 * @param fontFamily todo
 	 */
 	public final native void setFontFamily(String fontFamily) /*-{
 		this.fontFamily = fontFamily;
@@ -83,7 +83,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Sets the height of the header section for each node, in pixels (can be zero).
 	 * 
-	 * @param headerHeight
+	 * @param headerHeight todo
 	 */
 	public final native void setHeaderHeight(int headerHeight) /*-{
 		this.headerHeight = headerHeight;
@@ -93,7 +93,7 @@ public class TreeMapOptions extends Options {
 	 * Sets the color of the header of a node being hovered over. Specify an HTML color value or null; if null this
 	 * value will be headerColor lightened by 35%.
 	 * 
-	 * @param headerHighlightColor
+	 * @param headerHighlightColor todo
 	 */
 	public final native void setHeaderHighlightColor(String headerHighlightColor) /*-{
 		this.headerHighlightColor = headerHighlightColor;
@@ -122,7 +122,7 @@ public class TreeMapOptions extends Options {
 	 * Sets the maximum value allowed in column 3. All values greater than this will be trimmed to this value. If set to
 	 * null, it will be set to the max value in the column.
 	 * 
-	 * @param maxColorValue
+	 * @param maxColorValue todo
 	 */
 	public final native void setMaxColorValue(double maxColorValue) /*-{
 		this.maxColorValue = maxColorValue;
@@ -144,7 +144,7 @@ public class TreeMapOptions extends Options {
 	 * null;
 	 * If null, this value will be the value of maxColor lightened by 35%
 	 * 
-	 * @param maxHighlightColor
+	 * @param maxHighlightColor todo
 	 */
 	public final native void setMaxHighlightColor(String maxHighlightColor) /*-{
 		this.maxHighlightColor = maxHighlightColor;
@@ -154,7 +154,7 @@ public class TreeMapOptions extends Options {
 	 * Sets how many levels of nodes beyond maxDepth to show in "hinted" fashion. Hinted nodes are shown as shaded
 	 * rectangles within a node that is within the maxDepth limit.
 	 * 
-	 * @param maxPostDepth
+	 * @param maxPostDepth todo
 	 */
 	public final native void setMaxPostDepth(String maxPostDepth) /*-{
 		this.maxPostDepth = maxPostDepth;
@@ -164,7 +164,7 @@ public class TreeMapOptions extends Options {
 	 * Sets the color for a rectangle with a column 3 value midway between maxColorValue and minColorValue. Specify an
 	 * HTML color value.
 	 * 
-	 * @param midColor
+	 * @param midColor todo
 	 */
 	public final native void setMidColor(String midColor) /*-{
 		this.midColor = midColor;
@@ -175,7 +175,7 @@ public class TreeMapOptions extends Options {
 	 * maxColorValue. Specify an HTML color value or null; if null, this value will be the value of midColor lightened
 	 * by 35%.
 	 * 
-	 * @param midHighlightColor
+	 * @param midHighlightColor todo
 	 */
 	public final native void setMidHighlightColor(String midHighlightColor) /*-{
 		this.midHighlightColor = midHighlightColor;
@@ -184,7 +184,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Sets the color for a rectangle with the column 3 value of minColorValue. Specify an HTML color value.
 	 * 
-	 * @param minColor
+	 * @param minColor todo
 	 */
 	public final native void setMinColor(String minColor) /*-{
 		this.minColor = minColor;
@@ -195,7 +195,7 @@ public class TreeMapOptions extends Options {
 	 * null,
 	 * it will be calculated as the minimum value in the column.
 	 * 
-	 * @param minColorValue
+	 * @param minColorValue todo
 	 */
 	public final native void setMinColorValue(double minColorValue) /*-{
 		this.minColorValue = minColorValue;
@@ -205,7 +205,7 @@ public class TreeMapOptions extends Options {
 	 * Sets the highlight color to use for the node with a column 3 value nearest to minColorValue. Specify an HTML
 	 * color value or null; if null, this value will be the value of minColor lightened by 35%
 	 * 
-	 * @param minHighlightColor
+	 * @param minHighlightColor todo
 	 */
 	public final native void setMinHighlightColor(String minHighlightColor) /*-{
 		this.minHighlightColor = minHighlightColor;
@@ -215,7 +215,7 @@ public class TreeMapOptions extends Options {
 	 * Sets the color to use for a rectangle when a node has no value for column 3, and that node is a leaf (or contains
 	 * only leaves). Specify an HTML color value.
 	 * 
-	 * @param noColor
+	 * @param noColor todo
 	 */
 	public final native void setNoColor(String noColor) /*-{
 		this.noColor = noColor;
@@ -226,7 +226,7 @@ public class TreeMapOptions extends Options {
 	 * null,
 	 * this will be the value of noColor lightened by 35%.
 	 * 
-	 * @param noHighlightColor
+	 * @param noHighlightColor todo
 	 */
 	public final native void setNoHighlightColor(String noHighlightColor) /*-{
 		this.noHighlightColor = noHighlightColor;
@@ -236,7 +236,7 @@ public class TreeMapOptions extends Options {
 	 * Whether or not to show a color gradient scale from minColor to maxColor along the top of the chart. Specify true
 	 * to show the scale.
 	 * 
-	 * @param showScale
+	 * @param showScale todo
 	 */
 	public final native void setShowScale(boolean showScale) /*-{
 		this.showScale = showScale;
@@ -245,7 +245,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Whether to show tooltips.
 	 * 
-	 * @param showTooltips
+	 * @param showTooltips todo
 	 */
 	public final native void setShowTooltips(boolean showTooltips) /*-{
 		this.showTooltips = showTooltips;
@@ -254,7 +254,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Specifies the text style, for certain charts that have text in the content area such as the treemap.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;
@@ -263,7 +263,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * Text to display above the chart.
 	 * 
-	 * @param title
+	 * @param title todo
 	 */
 	public final native void setTitle(String title) /*-{
 		this.title = title;
@@ -272,7 +272,7 @@ public class TreeMapOptions extends Options {
 	/**
 	 * An object that specifies the title text style.
 	 * 
-	 * @param titleTextStyle
+	 * @param titleTextStyle todo
 	 */
 	public final native void setTitleTextStyle(TextStyle titleTextStyle) /*-{
 		this.titleTextStyle = titleTextStyle;

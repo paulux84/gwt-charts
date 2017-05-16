@@ -35,7 +35,7 @@ public class StringFilterUi extends ControlOptionsUi {
 	/**
 	 * The CSS class to assign to the control, for custom styling.
 	 * 
-	 * @param cssClass
+	 * @param cssClass todo
 	 */
 	public final native void setCssClass(String cssClass) /*-{
 		this.cssClass = cssClass;
@@ -45,7 +45,7 @@ public class StringFilterUi extends ControlOptionsUi {
 	 * The label to display next to the slider. If unspecified, the label of the column the control operates on will be
 	 * used.
 	 * 
-	 * @param label
+	 * @param label todo
 	 */
 	public final native void setLabel(String label) /*-{
 		this.label = label;
@@ -54,7 +54,7 @@ public class StringFilterUi extends ControlOptionsUi {
 	/**
 	 * A separator string appended to the label, to visually separate the label from the slider.
 	 * 
-	 * @param labelSeparator
+	 * @param labelSeparator todo
 	 */
 	public final native void setLabelSeparator(String labelSeparator) /*-{
 		this.labelSeparator = labelSeparator;
@@ -63,7 +63,7 @@ public class StringFilterUi extends ControlOptionsUi {
 	/**
 	 * Whether the label should display above (vertical stacking) or beside (horizontal stacking) the slider.
 	 * 
-	 * @param labelStacking
+	 * @param labelStacking todo
 	 */
 	public final void setLabelStacking(LabelStacking labelStacking) {
 		setLabelStacking(labelStacking.getName());
@@ -73,7 +73,7 @@ public class StringFilterUi extends ControlOptionsUi {
 	 * Whether the control should match any time a key is pressed or only when the input field 'changes' (loss of focus
 	 * or pressing the Enter key).
 	 * 
-	 * @param realtimeTrigger
+	 * @param realtimeTrigger todo
 	 */
 	public final native void setRealtimeTrigger(boolean realtimeTrigger) /*-{
 		this.realtimeTrigger = realtimeTrigger;

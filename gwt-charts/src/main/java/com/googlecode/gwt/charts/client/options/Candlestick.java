@@ -42,7 +42,7 @@ public class Candlestick extends JavaScriptObject {
 	/**
 	 * If true, rising candles will appear hollow and falling candles will appear solid, otherwise, the opposite.
 	 * 
-	 * @param hollowIsRising
+	 * @param hollowIsRising todo
 	 */
 	public final native void setHollowIsRising(boolean hollowIsRising) /*-{
 		this.hollowIsRising = hollowIsRising;

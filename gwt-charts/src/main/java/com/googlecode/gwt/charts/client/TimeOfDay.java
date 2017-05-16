@@ -22,10 +22,10 @@ public class TimeOfDay extends JavaScriptObject {
 	/**
 	 * Creates an new object.
 	 * 
-	 * @param hours
-	 * @param minutes
-	 * @param seconds
-	 * @param milliseconds
+	 * @param hours todo
+	 * @param minutes todo
+	 * @param seconds todo
+	 * @param milliseconds todo
 	 * @return the new object
 	 */
 	public static TimeOfDay create(int hours, int minutes, int seconds, int milliseconds) {
@@ -79,7 +79,7 @@ public class TimeOfDay extends JavaScriptObject {
 	/**
 	 * Sets the hours part.
 	 * 
-	 * @param hours
+	 * @param hours todo
 	 */
 	public final native void setHour(int hours) /*-{
 		this[0] = hours;
@@ -88,7 +88,7 @@ public class TimeOfDay extends JavaScriptObject {
 	/**
 	 * Sets the milliseconds part.
 	 * 
-	 * @param milliseconds
+	 * @param milliseconds todo
 	 */
 	public final native void setMillisecond(int milliseconds) /*-{
 		this[3] = milliseconds;
@@ -97,7 +97,7 @@ public class TimeOfDay extends JavaScriptObject {
 	/**
 	 * Sets the minutes part.
 	 * 
-	 * @param minutes
+	 * @param minutes todo
 	 */
 	public final native void setMinute(int minutes) /*-{
 		this[1] = minutes;
@@ -106,7 +106,7 @@ public class TimeOfDay extends JavaScriptObject {
 	/**
 	 * Sets the seconds part.
 	 * 
-	 * @param seconds
+	 * @param seconds todo
 	 */
 	public final native void setSecond(int seconds) /*-{
 		this[2] = seconds;

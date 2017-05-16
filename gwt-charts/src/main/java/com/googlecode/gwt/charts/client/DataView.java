@@ -94,7 +94,7 @@ public class DataView extends DataSource {
 	 * viewRowIndex should be a number greater than or equal to zero, and less than the number of rows as returned by
 	 * the getNumberOfRows() method.
 	 * 
-	 * @param viewRowIndex
+	 * @param viewRowIndex todo
 	 * @return the index of a given row specified by its index in this view
 	 */
 	public final native int getTableRowIndex(int viewRowIndex) /*-{
@@ -108,7 +108,7 @@ public class DataView extends DataSource {
 	 * zero, and less than the number of columns as returned by the getNumberOfColumns() method of the underlying
 	 * table/view.
 	 * 
-	 * @param tableColumnIndex
+	 * @param tableColumnIndex todo
 	 * @return the index in this view that maps to a given column
 	 */
 	public final native int getViewColumnIndex(int tableColumnIndex) /*-{
@@ -131,7 +131,7 @@ public class DataView extends DataSource {
 	 * is not in the view), returns -1. tableRowIndex should be a number greater than or equal to zero, and less than
 	 * the number of rows as returned by the getNumberOfRows() method of the underlying table/view.
 	 * 
-	 * @param tableRowIndex
+	 * @param tableRowIndex todo
 	 * @return the index in this view that maps to a given row
 	 */
 	public final native int getViewRowIndex(int tableRowIndex) /*-{
@@ -156,7 +156,7 @@ public class DataView extends DataSource {
 	 * entering an index that does not exist in the underlying table/view will throw an error. To unhide columns, call
 	 * setColumns().
 	 * 
-	 * @param columnIndexes
+	 * @param columnIndexes todo
 	 */
 	public final native void hideColumns(JsArrayInteger columnIndexes) /*-{
 		this.hideColumns(columnIndexes);
@@ -166,8 +166,8 @@ public class DataView extends DataSource {
 	 * Hides all rows with indexes that lie between min and max (inclusive) from the current view. This is a convenience
 	 * syntax for hideRows(rowIndexes) above.
 	 * 
-	 * @param fromIndex
-	 * @param toIndex
+	 * @param fromIndex todo
+	 * @param toIndex todo
 	 */
 	public final native void hideRows(int fromIndex, int toIndex) /*-{
 		this.hideRows(fromIndex, toIndex);
@@ -180,7 +180,7 @@ public class DataView extends DataSource {
 	 * number for a row already hidden is not an error, but entering an index that does not exist in the underlying
 	 * table/view will throw an error. To unhide rows, call setRows().
 	 * 
-	 * @param rowIndexes
+	 * @param rowIndexes todo
 	 */
 	public final native void hideRows(JsArrayInteger rowIndexes) /*-{
 		this.hideRows(rowIndexes);
@@ -226,8 +226,8 @@ public class DataView extends DataSource {
 	 * Sets the rows in this view to be all indexes (in the underlying table/view) that lie between min and max
 	 * (inclusive). This is a convenience syntax for setRows(rowIndexes) above
 	 * 
-	 * @param fromIndex
-	 * @param toIndex
+	 * @param fromIndex todo
+	 * @param toIndex todo
 	 */
 	public final native void setRows(int fromIndex, int toIndex) /*-{
 		this.setRows(fromIndex, toIndex);
@@ -242,7 +242,7 @@ public class DataView extends DataSource {
 	 * The array thus provides a mapping of the rows from the underlying table/view to this view. You can use
 	 * getFilteredRows() or getSortedRows() to generate input for this method.
 	 * 
-	 * @param rowIndexes
+	 * @param rowIndexes todo
 	 */
 	public final native void setRows(JsArrayInteger rowIndexes) /*-{
 		this.setRows(rowIndexes);

@@ -44,8 +44,8 @@ public class DashboardObject extends HasListeners {
 	 * all of the latter are redrawn whenever any of the former collects a programmatic or user interaction that affects
 	 * the data managed by the dashboard.
 	 * 
-	 * @param controlWrapper
-	 * @param chartWrapper
+	 * @param controlWrapper todo
+	 * @param chartWrapper todo
 	 * @return the dashboard instance itself for chaining multiple bind() calls together.
 	 */
 	public final native DashboardObject bind(ControlWrapperObject<?, ?> controlWrapper, ChartWrapperObject<?> chartWrapper) /*-{
@@ -58,8 +58,8 @@ public class DashboardObject extends HasListeners {
 	 * affects the data managed by the dashboard. Returns the dashboard instance itself for chaining multiple bind()
 	 * calls together.
 	 * 
-	 * @param controlWrappers
-	 * @param chartWrappers
+	 * @param controlWrappers todo
+	 * @param chartWrappers todo
 	 * @return the dashboard instance itself for chaining multiple bind() calls together.
 	 */
 	public final native DashboardObject bind(JsArray<ControlWrapperObject<?, ?>> controlWrappers,

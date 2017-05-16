@@ -32,7 +32,7 @@ public abstract class PageHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onPage(PageEvent event);
 }

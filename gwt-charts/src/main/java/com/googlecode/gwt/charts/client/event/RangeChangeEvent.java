@@ -28,7 +28,7 @@ public class RangeChangeEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public RangeChangeEvent(Properties properties) {
 		super(NAME, properties);

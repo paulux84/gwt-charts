@@ -52,7 +52,7 @@ public class SankeyOptions extends Options {
 	/**
 	 * Controls attributes of the connections between nodes.
 	 * 
-	 * @param sankeyLink
+	 * @param sankeyLink todo
 	 */
 	public final native void setLink(SankeyLink sankeyLink) /*-{
 		this.sankey.link = sankeyLink;
@@ -61,7 +61,7 @@ public class SankeyOptions extends Options {
 	/**
 	 * Controls attributes of the nodes (the vertical bars between links).
 	 * 
-	 * @param sankeyNode
+	 * @param sankeyNode todo
 	 */
 	public final native void setNode(SankeyNode sankeyNode) /*-{
 		this.sankey.node = sankeyNode;

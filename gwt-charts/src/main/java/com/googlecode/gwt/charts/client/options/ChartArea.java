@@ -35,7 +35,7 @@ public class ChartArea extends JavaScriptObject {
 	/**
 	 * The background color for the main area of the chart.
 	 * 
-	 * @param backgroundColor
+	 * @param backgroundColor todo
 	 */
 	public final native void setBackgroundColor(BackgroundColor backgroundColor) /*-{
 		this.backgroundColor = backgroundColor;

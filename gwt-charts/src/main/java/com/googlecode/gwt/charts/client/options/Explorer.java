@@ -43,7 +43,7 @@ public class Explorer extends JavaScriptObject {
 	 * See {@link #setMaxZoomIn(double)}, {@link #setMaxZoomOut(double)}, {@link #setZoomDelta(double)}, for zoom
 	 * customizations.
 	 * 
-	 * @param actions
+	 * @param actions todo
 	 */
 	public final void setActions(String... actions) {
 		setActions(ArrayHelper.createArray(actions));
@@ -53,7 +53,7 @@ public class Explorer extends JavaScriptObject {
 	 * Limits explorer panning to horizontal or vertical.
 	 * By default, users can pan both horizontally and vertically when the explorer option is used.
 	 * 
-	 * @param explorerAxis
+	 * @param explorerAxis todo
 	 */
 	public final native void setAxis(ExplorerAxis explorerAxis) /*-{
 		this.axis = panning;
@@ -63,7 +63,7 @@ public class Explorer extends JavaScriptObject {
 	 * By default, users can pan all around, regardless of where the data is. To ensure that users don't pan beyond the
 	 * original chart set this to true.
 	 * 
-	 * @param keepInBounds
+	 * @param keepInBounds todo
 	 */
 	public final native void setKeepInBounds(boolean keepInBounds) /*-{
 		this.keepInBounds = keepInBounds;

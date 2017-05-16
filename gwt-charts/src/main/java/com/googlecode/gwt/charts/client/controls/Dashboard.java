@@ -86,8 +86,8 @@ public class Dashboard extends Widget {
 	 * the data managed by the dashboard. Returns the dashboard instance itself for chaining multiple bind() calls
 	 * together.
 	 * 
-	 * @param controlWrapper
-	 * @param chartWrapper
+	 * @param controlWrapper todo
+	 * @param chartWrapper todo
 	 */
 	public void bind(ControlWrapper<?, ?> controlWrapper, ChartWrapper<?> chartWrapper) {
 		dashboardObject.bind(controlWrapper.getObject(), chartWrapper.getObject());
@@ -99,8 +99,8 @@ public class Dashboard extends Widget {
 	 * affects the data managed by the dashboard. Returns the dashboard instance itself for chaining multiple bind()
 	 * calls together.
 	 * 
-	 * @param controlWrappers
-	 * @param chartWrappers
+	 * @param controlWrappers todo
+	 * @param chartWrappers todo
 	 */
 	public void bind(List<ControlWrapper<?, ?>> controlWrappers, List<ChartWrapper<?>> chartWrappers) {
 		JsArray<ControlWrapperObject<?, ?>> controlWrapperArray = JavaScriptObject.createArray().cast();

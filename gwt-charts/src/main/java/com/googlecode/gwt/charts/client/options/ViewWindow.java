@@ -34,8 +34,8 @@ public class ViewWindow extends JavaScriptObject {
 	/**
 	 * Default constructor.
 	 * 
-	 * @param min
-	 * @param max
+	 * @param min min date
+	 * @param max max date
 	 * 
 	 * @return a new object instance
 	 */
@@ -49,8 +49,8 @@ public class ViewWindow extends JavaScriptObject {
 	/**
 	 * Default constructor.
 	 * 
-	 * @param min
-	 * @param max
+	 * @param min min
+	 * @param max max
 	 * 
 	 * @return a new object instance
 	 */
@@ -65,108 +65,112 @@ public class ViewWindow extends JavaScriptObject {
 	}
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 * For a continuous axis:
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
+     *
+	 * For a discrete axis:
 	 * The zero-based row index where the cropping window ends. Data points at this index and higher will be cropped
 	 * out. In conjunction with the other axis viewWindowMode.min, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
+	 * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
 	 * displayed.
-	 * </ul>
+     *
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param max
+	 * @param max max
 	 */
 	public final void setMax(Date max) {
 		setMaxDate(DateHelper.getJsDate(max));
 	}
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 * For a continuous axis:
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
+     *
+	 * For a discrete axis:
 	 * The zero-based row index where the cropping window ends. Data points at this index and higher will be cropped
 	 * out. In conjunction with the other axis viewWindowMode.min, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
+	 * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
 	 * displayed.
-	 * </ul>
+     *
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param max
+	 * @param max max
 	 */
 	public final native void setMax(double max) /*-{
 		this.max = max;
 	}-*/;
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 * For a continuous axis:
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
+     *
+	 * For a discrete axis:
 	 * The zero-based row index where the cropping window ends. Data points at this index and higher will be cropped
 	 * out. In conjunction with the other axis viewWindowMode.min, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
+	 * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
 	 * displayed.
-	 * </ul>
+     *
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param max
+	 * @param max max
 	 */
 	public final native void setMax(String max) /*-{
 		this.max = max;
 	}-*/;
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 * For a continuous axis:
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
-	 * The zero-based row index where the cropping window begins. Data points at indices lower than this will be cropped
-	 * out. In conjunction with the other axis viewWindowMode.max, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
-	 * displayed.
-	 * </ul>
+     *
+	 * For a discrete axis:
+     *
+     * The zero-based row index where the cropping window begins. Data points at indices lower than this will be cropped
+     * out. In conjunction with the other axis viewWindowMode.max, it defines a half-opened range [min, max) that
+     * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
+     * displayed.
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param min
+	 * @param min min
 	 */
 	public final void setMin(Date min) {
 		setMinDate(DateHelper.getJsDate(min));
 	}
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 * For a continuous axis:
+     *
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
-	 * The zero-based row index where the cropping window begins. Data points at indices lower than this will be cropped
-	 * out. In conjunction with the other axis viewWindowMode.max, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
-	 * displayed.
-	 * </ul>
+     *
+	 * For a discrete axis:
+     *
+     * The zero-based row index where the cropping window begins. Data points at indices lower than this will be cropped
+     * out. In conjunction with the other axis viewWindowMode.max, it defines a half-opened range [min, max) that
+     * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
+     * displayed.
+     *
+     *
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param min
+	 * @param min min
 	 */
 	public final native void setMin(double min) /*-{
 		this.min = min;
 	}-*/;
 
 	/**
-	 * <ul>
-	 * <li>For a continuous axis:</li>
+	 *
+	 * For a continuous axis:
 	 * The maximum horizontal data value to render.
-	 * <li>For a discrete axis:</li>
+     *
+	 * For a discrete axis:
 	 * The zero-based row index where the cropping window begins. Data points at indices lower than this will be cropped
 	 * out. In conjunction with the other axis viewWindowMode.max, it defines a half-opened range [min, max) that
-	 * denotes the element indices to display. In other words, every index such that min <= index < max will be
+	 * denotes the element indices to display. In other words, every index such that min &lt;= index &lt; max will be
 	 * displayed.
-	 * </ul>
+     *
 	 * Ignored when viewWindowMode is 'pretty' or 'maximized'.
 	 * 
-	 * @param min
+	 * @param min min
 	 */
 	public final native void setMin(String min) /*-{
 		this.min = min;

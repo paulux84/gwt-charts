@@ -36,7 +36,7 @@ public class GeoChartTooltip extends JavaScriptObject {
 	/**
 	 * An object that specifies the tooltip text style.
 	 * 
-	 * @param textStyle
+	 * @param textStyle todo
 	 */
 	public final native void setTextStyle(TextStyle textStyle) /*-{
 		this.textStyle = textStyle;

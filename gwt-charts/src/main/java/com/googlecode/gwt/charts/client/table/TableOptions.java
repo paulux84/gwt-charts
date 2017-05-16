@@ -34,7 +34,7 @@ public class TableOptions extends Options {
 	 * If set to true, formatted values of cells that include HTML tags will be rendered as HTML. If set to false, most
 	 * custom formatters will not work properly.
 	 * 
-	 * @param allowHtml
+	 * @param allowHtml todo
 	 */
 	public final native void setAllowHtml(boolean allowHtml) /*-{
 		this.allowHtml = allowHtml;
@@ -43,7 +43,7 @@ public class TableOptions extends Options {
 	/**
 	 * Determines if alternating color style will be assigned to odd and even rows.
 	 * 
-	 * @param alternatingRowStyle
+	 * @param alternatingRowStyle todo
 	 */
 	public final native void setAlternatingRowStyle(boolean alternatingRowStyle) /*-{
 		this.alternatingRowStyle = alternatingRowStyle;
@@ -55,7 +55,7 @@ public class TableOptions extends Options {
 	 * To use this property, assign an object, where the property name specifies the table element, and the property
 	 * value is a string, specifying a class name to assign to that element.
 	 * 
-	 * @param cssClassNames
+	 * @param cssClassNames todo
 	 */
 	public final native void setCssClassNames(CssClassNames cssClassNames) /*-{
 		this.cssClassNames = cssClassNames;
@@ -64,7 +64,7 @@ public class TableOptions extends Options {
 	/**
 	 * The row number for the first row in the dataTable. Used only if showRowNumber is true.
 	 * 
-	 * @param firstRowNumber
+	 * @param firstRowNumber todo
 	 */
 	public final native void setFirstRowNumber(int firstRowNumber) /*-{
 		this.firstRowNumber = firstRowNumber;
@@ -73,7 +73,7 @@ public class TableOptions extends Options {
 	/**
 	 * If and how to enable paging through the data.
 	 * 
-	 * @param page
+	 * @param page todo
 	 */
 	public final void setPage(TablePage page) {
 		setPage(page.getName());
@@ -96,7 +96,7 @@ public class TableOptions extends Options {
 	 * enable paging (using the page option), or if the table has scroll bars because you have specified height and
 	 * width options smaller than the required table size.
 	 * 
-	 * @param rtlTable
+	 * @param rtlTable todo
 	 */
 	public final native void setRtlTable(boolean rtlTable) /*-{
 		this.rtlTable = rtlTable;
@@ -106,7 +106,7 @@ public class TableOptions extends Options {
 	 * Sets the horizontal scrolling position, in pixels, if the table has horizontal scroll bars because you have set
 	 * the width property. The table will open scrolled that many pixels past the leftmost column.
 	 * 
-	 * @param scrollLeftStartPosition
+	 * @param scrollLeftStartPosition todo
 	 */
 	public final native void setScrollLeftStartPosition(int scrollLeftStartPosition) /*-{
 		this.scrollLeftStartPosition = scrollLeftStartPosition;
@@ -115,7 +115,7 @@ public class TableOptions extends Options {
 	/**
 	 * If set to true, shows the row number as the first column of the table.
 	 * 
-	 * @param showRowNumber
+	 * @param showRowNumber todo
 	 */
 	public final native void setShowRowNumber(boolean showRowNumber) /*-{
 		this.showRowNumber = showRowNumber;
@@ -125,7 +125,7 @@ public class TableOptions extends Options {
 	 * If and how to sort columns when the user clicks a column heading. If sorting is enabled, consider setting the
 	 * sortAscending and sortColumn properties as well.
 	 * 
-	 * @param sort
+	 * @param sort todo
 	 */
 	public final void setSort(TableSort sort) {
 		setSort(sort.getName());
@@ -135,7 +135,7 @@ public class TableOptions extends Options {
 	 * The order in which the initial sort column is sorted. True for ascending, false for descending. Ignored if
 	 * sortColumn is not specified.
 	 * 
-	 * @param sortAscending
+	 * @param sortAscending todo
 	 */
 	public final native void setSortAscending(boolean sortAscending) /*-{
 		this.sortAscending = sortAscending;
@@ -145,7 +145,7 @@ public class TableOptions extends Options {
 	 * An index of a column in the data table, by which the table is initially sorted. The column will be marked with a
 	 * small arrow indicating the sort order.
 	 * 
-	 * @param sortColumn
+	 * @param sortColumn todo
 	 */
 	public final native void setSortColumn(int sortColumn) /*-{
 		this.sortColumn = sortColumn;
@@ -154,7 +154,7 @@ public class TableOptions extends Options {
 	/**
 	 * The first table page to display. Used only if page is in mode enable/event.
 	 * 
-	 * @param startPage
+	 * @param startPage todo
 	 */
 	public final native void setStartPage(int startPage) /*-{
 		this.startPage = startPage;

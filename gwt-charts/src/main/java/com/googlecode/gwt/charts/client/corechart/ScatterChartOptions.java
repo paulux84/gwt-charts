@@ -64,7 +64,7 @@ public class ScatterChartOptions extends CoreOptions {
 	 * 
 	 * </pre>
 	 * 
-	 * @param aggregationTarget
+	 * @param aggregationTarget todo
 	 */
 	public final native void setAggregationTarget(AggregationTarget aggregationTarget) /*-{
 		this.aggregationTarget = aggregationTarget;
@@ -73,7 +73,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets annotation display settings.
 	 * 
-	 * @param annotations
+	 * @param annotations todo
 	 */
 	public final native void setAnnotations(Annotations annotations) /*-{
 		this.annotations = annotations;
@@ -82,7 +82,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets the crosshair properties for the chart.
 	 * 
-	 * @param crosshair
+	 * @param crosshair todo
 	 */
 	public final native void setCrosshair(Crosshair crosshair) /*-{
 		this.crosshair = crosshair;
@@ -112,7 +112,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets diff chart options.
 	 * 
-	 * @param diff
+	 * @param diff todo
 	 */
 	public final native void setDiff(ScatterChartDiff diff) /*-{
 		this.diff = diff;
@@ -121,7 +121,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets the explorer properties for the chart.
 	 * 
-	 * @param explorer
+	 * @param explorer todo
 	 */
 	public final native void setExplorer(Explorer explorer) /*-{
 		this.explorer = explorer;
@@ -132,7 +132,7 @@ public class ScatterChartOptions extends CoreOptions {
 	 * The first number indicates the length of a dash, and the second indicates the gap after it. If there is a third
 	 * number, that's the length of the next dash, and a fourth number, if present, is the length of the next gap.
 	 * 
-	 * @param lineDashStyle
+	 * @param lineDashStyle todo
 	 */
 	public final void setLineDashStyle(int... lineDashStyle) {
 		setLineDashStyle(ArrayHelper.createArray(lineDashStyle));
@@ -151,7 +151,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShape pointShape) /*-{
 		this.pointShape = pointShape;
@@ -160,7 +160,7 @@ public class ScatterChartOptions extends CoreOptions {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShapeType pointShape) /*-{
 		this.pointShape = pointShape;

@@ -57,7 +57,7 @@ public class Query extends JavaScriptObject {
 	 * responds.<br>
 	 * The callback function will receive a single parameter of type google.visualization.QueryResponse.
 	 * 
-	 * @param queryCallback
+	 * @param queryCallback todo
 	 */
 	public final native void send(QueryCallback queryCallback) /*-{
 		this
@@ -72,7 +72,7 @@ public class Query extends JavaScriptObject {
 	 * Learn more about the <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Query
 	 * language</a>.
 	 * 
-	 * @param query
+	 * @param query todo
 	 */
 	public final native void setQuery(String query) /*-{
 		this.setQuery(query);
@@ -84,7 +84,7 @@ public class Query extends JavaScriptObject {
 	 * 
 	 * Cancel this method either by calling it again with zero (the default), or by calling abort().
 	 * 
-	 * @param refreshInterval
+	 * @param refreshInterval todo
 	 */
 	public final native void setRefreshInterval(int refreshInterval) /*-{
 		this.setRefreshInterval(refreshInterval);

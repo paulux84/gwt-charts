@@ -28,7 +28,7 @@ public class ReadyEvent extends Event {
 	/**
 	 * Creates a new event.
 	 * 
-	 * @param properties
+	 * @param properties todo
 	 */
 	public ReadyEvent(Properties properties) {
 		super(NAME, properties);

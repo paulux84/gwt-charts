@@ -36,7 +36,7 @@ public class OrgChartOptions extends Options {
 	/**
 	 * Determines if double click will collapse a node.
 	 * 
-	 * @param allowCollapse
+	 * @param allowCollapse todo
 	 */
 	public final native void setAllowCollapse(boolean allowCollapse) /*-{
 		this.allowCollapse = allowCollapse;
@@ -45,7 +45,7 @@ public class OrgChartOptions extends Options {
 	/**
 	 * If set to true, names that includes HTML tags will be rendered as HTML.
 	 * 
-	 * @param allowHtml
+	 * @param allowHtml todo
 	 */
 	public final native void setAllowHtml(boolean allowHtml) /*-{
 		this.allowHtml = allowHtml;
@@ -55,7 +55,7 @@ public class OrgChartOptions extends Options {
 	 * A class name to assign to node elements.<br>
 	 * Apply CSS to this class name to specify colors or styles for the chart elements.
 	 * 
-	 * @param nodeClass
+	 * @param nodeClass todo
 	 */
 	public final native void setNodeClass(String nodeClass) /*-{
 		this.nodeClass = nodeClass;
@@ -65,7 +65,7 @@ public class OrgChartOptions extends Options {
 	 * A class name to assign to selected node elements.<br>
 	 * Apply CSS to this class name to specify colors or styles for selected chart elements.
 	 * 
-	 * @param selectedNodeClass
+	 * @param selectedNodeClass todo
 	 */
 	public final native void setSelectedNodeClass(String selectedNodeClass) /*-{
 		this.selectedNodeClass = selectedNodeClass;
@@ -74,7 +74,7 @@ public class OrgChartOptions extends Options {
 	/**
 	 * The size of the chart.
 	 * 
-	 * @param size
+	 * @param size todo
 	 */
 	public final void setSize(OrgChartSize size) {
 		setSize(size.getName());

@@ -43,7 +43,7 @@ public class SizeAxis extends JavaScriptObject {
 	 * Sets the size value (as appears in the chart data) to be mapped to sizeAxis.maxSize.
 	 * Larger values will be cropped to this value.
 	 * 
-	 * @param maxValue
+	 * @param maxValue todo
 	 */
 	public final native void setMaxValue(double maxValue) /*-{
 		this.maxValue = maxValue;
@@ -62,7 +62,7 @@ public class SizeAxis extends JavaScriptObject {
 	 * Sets the size value (as appears in the chart data) to be mapped to sizeAxis.minSize. Smaller values will be
 	 * cropped to this value.
 	 * 
-	 * @param minValue
+	 * @param minValue todo
 	 */
 	public final native void setMinValue(double minValue) /*-{
 		this.minValue = minValue;

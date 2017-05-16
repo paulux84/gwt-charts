@@ -49,7 +49,7 @@ public class BubbleChartOptions extends CoreOptions {
 	/**
 	 * An object that specifies a mapping between color column values and colors or a gradient scale.
 	 * 
-	 * @param colorAxis
+	 * @param colorAxis todo
 	 */
 	public final native void setColorAxis(ColorAxis colorAxis) /*-{
 		this.colorAxis = colorAxis;
@@ -58,7 +58,7 @@ public class BubbleChartOptions extends CoreOptions {
 	/**
 	 * Sets the explorer properties for the chart.
 	 * 
-	 * @param explorer
+	 * @param explorer todo
 	 */
 	public final native void setExplorer(Explorer explorer) /*-{
 		this.explorer = explorer;
@@ -90,7 +90,7 @@ public class BubbleChartOptions extends CoreOptions {
 	/**
 	 * Configures how values are associated with bubble size.
 	 * 
-	 * @param sizeAxis
+	 * @param sizeAxis todo
 	 */
 	public final native void setSizeAxis(SizeAxis sizeAxis) /*-{
 		this.sizeAxis = sizeAxis;

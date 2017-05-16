@@ -471,8 +471,8 @@ public class ChartWrapper<T extends Options> extends Widget implements RequiresR
 	 * Sets a single chart option value, where key is the option name and value is the value. To unset an option, pass
 	 * in null for the value. Note that key may be a qualified name, such as 'vAxis.title'.
 	 * 
-	 * @param key
-	 * @param value
+	 * @param key todo
+	 * @param value todo
 	 */
 	public void setOption(String key, boolean value) {
 		chartWrapperObject.setOption(key, value);
@@ -572,7 +572,7 @@ public class ChartWrapper<T extends Options> extends Widget implements RequiresR
 	 * setSelection() with the items to remain selected; to deselect all elements, call setSelection(),
 	 * setSelection(null), or setSelection([]).
 	 * 
-	 * @param selection
+	 * @param selection todo
 	 */
 	public void setSelection(JsArray<Selection> selection) {
 		chartWrapperObject.setSelection(selection);

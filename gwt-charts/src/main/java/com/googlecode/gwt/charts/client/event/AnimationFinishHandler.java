@@ -32,7 +32,7 @@ public abstract class AnimationFinishHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onAnimationFinish(AnimationFinishEvent event);
 }

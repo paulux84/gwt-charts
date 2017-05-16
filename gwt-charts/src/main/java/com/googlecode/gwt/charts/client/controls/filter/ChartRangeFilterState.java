@@ -43,7 +43,7 @@ public class ChartRangeFilterState extends ControlState {
 	/**
 	 * Sets the selected range.
 	 * 
-	 * @param range
+	 * @param range todo
 	 */
 	public final native void setRange(ChartRangeFilterStateRange range) /*-{
 		this.range = range;

@@ -70,7 +70,7 @@ public class NumberRangeFilterState extends ControlState {
 	/**
 	 * Locks the higher thumb of the slider at the maximum allowed range. Ooverrides highValue.
 	 * 
-	 * @param highThumbAtMaximum
+	 * @param highThumbAtMaximum todo
 	 */
 	public final native void setHighThumbAtMaximum(boolean highThumbAtMaximum) /*-{
 		this.highThumbAtMaximum = highThumbAtMaximum;
@@ -79,7 +79,7 @@ public class NumberRangeFilterState extends ControlState {
 	/**
 	 * Sets the higher extent of the selected range, inclusive.
 	 * 
-	 * @param highValue
+	 * @param highValue todo
 	 */
 	public final native void setHighValue(double highValue) /*-{
 		this.highValue = highValue;
@@ -88,7 +88,7 @@ public class NumberRangeFilterState extends ControlState {
 	/**
 	 * Locks the lower thumb of the slider at the minimum allowed range. Overrides lowValue.
 	 * 
-	 * @param lowThumbAtMinimum
+	 * @param lowThumbAtMinimum todo
 	 */
 	public final native void setLowThumbAtMinimum(boolean lowThumbAtMinimum) /*-{
 		this.lowThumbAtMinimum = lowThumbAtMinimum;
@@ -97,7 +97,7 @@ public class NumberRangeFilterState extends ControlState {
 	/**
 	 * Sets the lower extent of the selected range, inclusive.
 	 * 
-	 * @param lowValue
+	 * @param lowValue todo
 	 */
 	public final native void setLowValue(double lowValue) /*-{
 		this.lowValue = lowValue;

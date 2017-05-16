@@ -35,7 +35,7 @@ public class StringFilterOptions extends ControlOptions<StringFilterUi> {
 	/**
 	 * Whether matching should be case sensitive or not.
 	 * 
-	 * @param caseSensitive
+	 * @param caseSensitive todo
 	 */
 	public final native void setCaseSensitive(boolean caseSensitive) /*-{
 		this.caseSensitive = caseSensitive;
@@ -54,7 +54,7 @@ public class StringFilterOptions extends ControlOptions<StringFilterUi> {
 	/**
 	 * Whether the control should match against cell formatted values or againt actual values.
 	 * 
-	 * @param useFormattedValue
+	 * @param useFormattedValue todo
 	 */
 	public final native void setUseFormattedValue(boolean useFormattedValue) /*-{
 		this.useFormattedValue = useFormattedValue;

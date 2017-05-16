@@ -146,7 +146,7 @@ public abstract class ChartWidget<T extends Options> extends Widget implements R
 	 * Call this method to register to receive events fired by a visualization hosted on your page. Note that this will
 	 * not work for visualizations embedded in a gadget.
 	 * 
-	 * @param <H>
+	 * @param <H> the handler type
 	 * @param handler the function to call when the event is fired
 	 * @return the new handler reference. Can be used for removing by calling {@link #removeHandler(HandlerRef)}.
 	 */

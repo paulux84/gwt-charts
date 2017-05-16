@@ -36,7 +36,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	 * A number that is the base value to compare the cell value against. If the cell value is higher, it will be drawn
 	 * to the right of the base; if lower, it will be drawn to the left. Default value is 0.
 	 * 
-	 * @param base
+	 * @param base todo
 	 */
 	public final native void setBase(double base) /*-{
 		this.base = base;
@@ -46,7 +46,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	 * A string indicating the negative value section of bars. Possible values are 'red', 'green' and 'blue'; default
 	 * value is 'red'.
 	 * 
-	 * @param colorNegative
+	 * @param colorNegative todo
 	 */
 	public final void setColorNegative(BarFormatColor colorNegative) {
 		setColorNegative(colorNegative.getName());
@@ -56,7 +56,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	 * A string indicating the color of the positive value section of bars. Possible values are 'red', 'green' and
 	 * 'blue'. Default is 'blue'.
 	 * 
-	 * @param colorPositive
+	 * @param colorPositive todo
 	 */
 	public final void setColorPositive(BarFormatColor colorPositive) {
 		setColorPositive(colorPositive.getName());
@@ -66,7 +66,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	 * A boolean indicating if to draw a 1 pixel dark base line when negative values are present. The dark line is there
 	 * to enhance visual scanning of the bars. Default value is 'false'.
 	 * 
-	 * @param drawZeroLine
+	 * @param drawZeroLine todo
 	 */
 	public final native void setDrawZeroLine(boolean drawZeroLine) /*-{
 		this.drawZeroLine = drawZeroLine;
@@ -75,7 +75,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	/**
 	 * The maximum number value for the bar range. Default value is the highest value in the table.
 	 * 
-	 * @param max
+	 * @param max todo
 	 */
 	public final native void setMax(double max) /*-{
 		this.max = max;
@@ -84,7 +84,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	/**
 	 * The minimum number value for the bar range. Default value is the lowest value in the table.
 	 * 
-	 * @param min
+	 * @param min todo
 	 */
 	public final native void setMin(double min) /*-{
 		this.min = min;
@@ -93,7 +93,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	/**
 	 * If true, shows values and bars; if false, shows only bars. Default value is true.
 	 * 
-	 * @param showValue
+	 * @param showValue todo
 	 */
 	public final native void setShowValue(boolean showValue) /*-{
 		this.showValue = showValue;
@@ -102,7 +102,7 @@ public class BarFormatOptions extends JavaScriptObject {
 	/**
 	 * Thickness of each bar, in pixels. Default value is 100.
 	 * 
-	 * @param width
+	 * @param width todo
 	 */
 	public final native void setWidth(int width) /*-{
 		this.width = width;

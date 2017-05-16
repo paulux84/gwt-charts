@@ -32,7 +32,7 @@ public abstract class OkHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onOk(OkEvent event);
 }

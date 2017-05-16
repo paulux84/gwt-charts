@@ -99,7 +99,7 @@ public class AnnotationChart extends ChartWidget<AnnotationChartOptions> {
 	 * Hides the specified data series from the chart. Accepts one parameter which can be a number or an array of
 	 * numbers, in which 0 refers to the first data series, and so on.
 	 * 
-	 * @param columnIndexes
+	 * @param columnIndexes column indexes to hide
 	 */
 	public void hideDataColumns(int... columnIndexes) {
 		chartObject.hideDataColumns(ArrayHelper.createArray(columnIndexes));
@@ -120,7 +120,7 @@ public class AnnotationChart extends ChartWidget<AnnotationChartOptions> {
 	 * Shows the specified data series from the chart, after they were hidden using hideDataColumns method. Accepts one
 	 * parameter which can be a number or an array of numbers, in which 0 refers to the first data series, and so on.
 	 * 
-	 * @param columnIndexes
+	 * @param columnIndexes column indexes to hide
 	 */
 	public void showDataColumns(int... columnIndexes) {
 		chartObject.showDataColumns(ArrayHelper.createArray(columnIndexes));

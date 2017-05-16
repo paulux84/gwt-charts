@@ -39,7 +39,7 @@ public class AreaChartSeries extends JavaScriptObject {
 	/**
 	 * Sets annotation display settings.
 	 * 
-	 * @param annotations
+	 * @param annotations todo
 	 */
 	public final native void setAnnotations(Annotations annotations) /*-{
 		this.annotations = annotations;
@@ -68,7 +68,7 @@ public class AreaChartSeries extends JavaScriptObject {
 	 * The first number indicates the length of a dash, and the second indicates the gap after it. If there is a third
 	 * number, that's the length of the next dash, and a fourth number, if present, is the length of the next gap.
 	 * 
-	 * @param lineDashStyle
+	 * @param lineDashStyle todo
 	 */
 	public final void setLineDashStyle(int... lineDashStyle) {
 		setLineDashStyle(ArrayHelper.createArray(lineDashStyle));
@@ -86,7 +86,7 @@ public class AreaChartSeries extends JavaScriptObject {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShape pointShape) /*-{
 		this.pointShape = pointShape;
@@ -95,7 +95,7 @@ public class AreaChartSeries extends JavaScriptObject {
 	/**
 	 * Sets the shape of individual data elements.
 	 * 
-	 * @param pointShape
+	 * @param pointShape todo
 	 */
 	public final native void setPointShape(PointShapeType pointShape) /*-{
 		this.pointShape = pointShape;

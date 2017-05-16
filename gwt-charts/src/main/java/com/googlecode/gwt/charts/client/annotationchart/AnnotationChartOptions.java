@@ -38,7 +38,7 @@ public class AnnotationChartOptions extends Options {
 	/**
 	 * If set to true, any annotation text that includes HTML tags will be rendered as HTML.
 	 * 
-	 * @param allowHtml
+	 * @param allowHtml allow html or not
 	 */
 	public final native void setAllowHtml(boolean allowHtml) /*-{
 		this.allowHtml = allowHtml;
@@ -47,7 +47,7 @@ public class AnnotationChartOptions extends Options {
 	/**
 	 * A suffix to be added to all values in the legend and tick labels in the vertical axes.
 	 * 
-	 * @param allValuesSuffix
+	 * @param allValuesSuffix the suffix to append
 	 */
 	public final native void setAllValuesSuffix(String allValuesSuffix) /*-{
 		this.allValuesSuffix = allValuesSuffix;
@@ -76,7 +76,7 @@ public class AnnotationChartOptions extends Options {
 	 * 
 	 * @see <a href="http://icu-project.org/apiref/icu4j/com/ibm/icu/text/SimpleDateFormat.html">java SimpleDateFormat
 	 *      class</a>
-	 * @param dateFormat
+	 * @param dateFormat e.g. dd/MM/yyyy, dd-MM-yyyy, MM/dd/yyyy, yyyy-MM-dd
 	 */
 	public final native void setDateFormat(String dateFormat) /*-{
 		this.dateFormat = dateFormat;
@@ -175,7 +175,7 @@ public class AnnotationChartOptions extends Options {
 	/**
 	 * Defines where to put the colored legend.
 	 * 
-	 * @param legendPosition
+	 * @param legendPosition  location of legend
 	 */
 	public final void setLegendPosition(ColoredLegendPosition legendPosition) {
 		setLegendPosition(legendPosition.getName());
@@ -187,7 +187,7 @@ public class AnnotationChartOptions extends Options {
 	 * take precedence over the Y axis maximum determined by scaleType.
 	 * This is similar to maxValue in core charts.
 	 * 
-	 * @param max
+	 * @param max todo
 	 */
 	public final native void setMax(double max) /*-{
 		this.max = max;
@@ -199,7 +199,7 @@ public class AnnotationChartOptions extends Options {
 	 * take precedence over the Y axis minimum determined by scaleType.
 	 * This is similar to minValue in core charts.
 	 * 
-	 * @param min
+	 * @param min todo
 	 */
 	public final native void setMin(double min) /*-{
 		this.min = min;
@@ -215,8 +215,8 @@ public class AnnotationChartOptions extends Options {
 	 * 
 	 * @see <a href="http://icu-project.org/apiref/icu4j/com/ibm/icu/text/DecimalFormat.html">java DecimalFormat
 	 *      class</a>
-	 * @param index
-	 * @param numberFormat
+	 * @param index todo
+	 * @param numberFormat todo
 	 */
 	public final native void setNumberFormat(int index, String numberFormat) /*-{
 		if (!this.numberFormats) {
@@ -231,7 +231,7 @@ public class AnnotationChartOptions extends Options {
 	 * 
 	 * @see <a href="http://icu-project.org/apiref/icu4j/com/ibm/icu/text/DecimalFormat.html">java DecimalFormat
 	 *      class</a>
-	 * @param numberFormat
+	 * @param numberFormat todo
 	 */
 	public final native void setNumberFormat(String numberFormat) /*-{
 		this.numberFormats = numberFormat;
@@ -255,7 +255,7 @@ public class AnnotationChartOptions extends Options {
 	 * When displaying more than one scale, it is advisable to set the scaleType option to either 'allfixed' or
 	 * 'allmaximized'.
 	 * 
-	 * @param scaleColumns
+	 * @param scaleColumns todo
 	 */
 	public final void setScaleColumns(int... scaleColumns) {
 		this.setScaleColumns(ArrayHelper.createArray(scaleColumns));
@@ -293,7 +293,7 @@ public class AnnotationChartOptions extends Options {
 	/**
 	 * Sets the end date/time of the selected zoom range.
 	 * 
-	 * @param zoomEndTime
+	 * @param zoomEndTime todo
 	 */
 	public final void setZoomEndTime(Date zoomEndTime) {
 		setZoomEndTime(DateHelper.getJsDate(zoomEndTime));
@@ -302,7 +302,7 @@ public class AnnotationChartOptions extends Options {
 	/**
 	 * Sets the start date/time of the selected zoom range.
 	 * 
-	 * @param zoomStartTime
+	 * @param zoomStartTime todo
 	 */
 	public final void setZoomStartTime(Date zoomStartTime) {
 		setZoomStartTime(DateHelper.getJsDate(zoomStartTime));

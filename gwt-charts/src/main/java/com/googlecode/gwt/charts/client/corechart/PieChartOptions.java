@@ -43,7 +43,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * The background color for the main area of the chart.
 	 * 
-	 * @param backgroundColor
+	 * @param backgroundColor todo
 	 */
 	public final native void setBackgroundColor(BackgroundColor backgroundColor) /*-{
 		this.backgroundColor = backgroundColor;
@@ -61,7 +61,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * Configure the placement and size of the chart area (where the chart itself is drawn, excluding axis and legends).
 	 * 
-	 * @param chartArea
+	 * @param chartArea todo
 	 */
 	public final native void setChartArea(ChartArea chartArea) /*-{
 		this.chartArea = chartArea;
@@ -79,7 +79,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * Sets diff chart options.
 	 * 
-	 * @param diff
+	 * @param diff todo
 	 */
 	public final native void setDiff(PieChartDiff diff) /*-{
 		this.diff = diff;
@@ -90,7 +90,7 @@ public class PieChartOptions extends Options {
 	 * 'select' or other interaction-based events (but will throw ready or error events), and will not display hovertext
 	 * or otherwise change depending on user input.
 	 * 
-	 * @param enableInteractivity
+	 * @param enableInteractivity todo
 	 */
 	public final native void setEnableInteractivity(boolean enableInteractivity) /*-{
 		this.enableInteractivity = enableInteractivity;
@@ -100,7 +100,7 @@ public class PieChartOptions extends Options {
 	 * The default font face for all text in the chart. You can override this using properties for specific chart
 	 * elements.
 	 * 
-	 * @param fontName
+	 * @param fontName todo
 	 */
 	public final native void setFontName(String fontName) /*-{
 		this.fontName = fontName;
@@ -110,7 +110,7 @@ public class PieChartOptions extends Options {
 	 * The default font size, in pixels, of all text in the chart. You can override this using properties for specific
 	 * chart elements.
 	 * 
-	 * @param fontSize
+	 * @param fontSize todo
 	 */
 	public final native void setFontSize(double fontSize) /*-{
 		this.fontSize = fontSize;
@@ -129,7 +129,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * If true, displays a three-dimensional chart.
 	 * 
-	 * @param is3D
+	 * @param is3D todo
 	 */
 	public final native void setIs3D(boolean is3D) /*-{
 		this.is3D = is3D;
@@ -138,7 +138,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * Configure various aspects of the legend.
 	 * 
-	 * @param legend
+	 * @param legend todo
 	 */
 	public final native void setLegend(Legend legend) /*-{
 		this.legend = legend;
@@ -148,7 +148,7 @@ public class PieChartOptions extends Options {
 	 * If between 0 and 1, displays a donut chart. The hole with have a radius equal to number times the radius of the
 	 * chart.
 	 * 
-	 * @param pieHole
+	 * @param pieHole todo
 	 */
 	public final native void setPieHole(double pieHole) /*-{
 		this.pieHole = pieHole;
@@ -157,7 +157,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * Color for the combination slice that holds all slices below sliceVisibilityThreshold.
 	 * 
-	 * @param pieResidueSliceColor
+	 * @param pieResidueSliceColor todo
 	 */
 	public final native void setPieResidueSliceColor(String pieResidueSliceColor) /*-{
 		this.pieResidueSliceColor = pieResidueSliceColor;
@@ -166,7 +166,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * A label for the combination slice that holds all slices below sliceVisibilityThreshold.
 	 * 
-	 * @param pieResidueSliceLabel
+	 * @param pieResidueSliceLabel todo
 	 */
 	public final native void setPieResidueSliceLabel(String pieResidueSliceLabel) /*-{
 		this.pieResidueSliceLabel = pieResidueSliceLabel;
@@ -175,7 +175,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * The color of the slice borders. Only applicable when the chart is two-dimensional.
 	 * 
-	 * @param pieSliceBorderColor
+	 * @param pieSliceBorderColor todo
 	 */
 	public final native void setPieSliceBorderColor(String pieSliceBorderColor) /*-{
 		this.pieSliceBorderColor = pieSliceBorderColor;
@@ -184,7 +184,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * The content of the text displayed on the slice.
 	 * 
-	 * @param pieSliceText
+	 * @param pieSliceText todo
 	 */
 	public final void setPieSliceText(PieSliceText pieSliceText) {
 		setPieSliceText(pieSliceText.getName());
@@ -193,7 +193,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * An object that specifies the slice text style.
 	 * 
-	 * @param pieSliceTextStyle
+	 * @param pieSliceTextStyle todo
 	 */
 	public final native void setPieSliceTextStyle(TextStyle pieSliceTextStyle) /*-{
 		this.pieSliceTextStyle = pieSliceTextStyle;
@@ -203,7 +203,7 @@ public class PieChartOptions extends Options {
 	 * The angle, in degrees, to rotate the chart by. The default of 0 will orient the leftmost edge of the first slice
 	 * directly up.
 	 * 
-	 * @param pieStartAngle
+	 * @param pieStartAngle todo
 	 */
 	public final native void setPieStartAngle(int pieStartAngle) /*-{
 		this.pieStartAngle = pieStartAngle;
@@ -213,7 +213,7 @@ public class PieChartOptions extends Options {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */
@@ -238,7 +238,7 @@ public class PieChartOptions extends Options {
 	 * An array of objects, each describing the format of the corresponding slice in the pie.<br>
 	 * If a slice or a value is not specified, the global value will be used.
 	 * 
-	 * @param slices
+	 * @param slices todo
 	 */
 	public final void setSlices(Slice... slices) {
 		setSlices(ArrayHelper.createArray(slices));
@@ -258,7 +258,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * Text to display above the chart.
 	 * 
-	 * @param title
+	 * @param title todo
 	 */
 	public final native void setTitle(String title) /*-{
 		this.title = title;
@@ -267,7 +267,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * An object that specifies the title text style.
 	 * 
-	 * @param titleTextStyle
+	 * @param titleTextStyle todo
 	 */
 	public final native void setTitleTextStyle(TextStyle titleTextStyle) /*-{
 		this.titleTextStyle = titleTextStyle;
@@ -276,7 +276,7 @@ public class PieChartOptions extends Options {
 	/**
 	 * An object with members to configure various tooltip elements.
 	 * 
-	 * @param tooltip
+	 * @param tooltip todo
 	 */
 	public final native void setTooltip(PieChartTooltip tooltip) /*-{
 		this.tooltip = tooltip;

@@ -67,7 +67,7 @@ public class CandlestickChartOptions extends CoreOptions {
 	 * 
 	 * </pre>
 	 * 
-	 * @param aggregationTarget
+	 * @param aggregationTarget todo
 	 */
 	public final native void setAggregationTarget(AggregationTarget aggregationTarget) /*-{
 		this.aggregationTarget = aggregationTarget;
@@ -111,7 +111,7 @@ public class CandlestickChartOptions extends CoreOptions {
 	/**
 	 * If true, rising candles will appear hollow and falling candles will appear solid, otherwise, the opposite.
 	 * 
-	 * @param hollowIsRising
+	 * @param hollowIsRising todo
 	 */
 	public final native void setHollowIsRising(boolean hollowIsRising) /*-{
 		this.candlestick.hollowIsRising = hollowIsRising;
@@ -121,7 +121,7 @@ public class CandlestickChartOptions extends CoreOptions {
 	 * The orientation of the chart. When set to 'vertical', rotates the axes of the chart so that (for instance) a
 	 * column chart becomes a bar chart, and an area chart grows rightward instead of up.
 	 * 
-	 * @param orientation
+	 * @param orientation todo
 	 */
 	public final native void setOrientation(Orientation orientation) /*-{
 		this.orientation = orientation;
@@ -131,7 +131,7 @@ public class CandlestickChartOptions extends CoreOptions {
 	 * If set to true, will draw series from right to left. The default is to draw left-to-right. This option is only
 	 * supported for a discrete major axis.
 	 * 
-	 * @param reverseCategories
+	 * @param reverseCategories todo
 	 * @see <a href="http://developers.google.com/chart/interactive/docs/customizing_axes.html#Terminology">Discrete vs
 	 *      Continuous</a>
 	 */

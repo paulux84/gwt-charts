@@ -35,7 +35,7 @@ public class ColumnChartSeries extends JavaScriptObject {
 	/**
 	 * Sets annotation display settings.
 	 * 
-	 * @param annotations
+	 * @param annotations todo
 	 */
 	public final native void setAnnotations(Annotations annotations) /*-{
 		this.annotations = annotations;

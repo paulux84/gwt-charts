@@ -190,7 +190,7 @@ public class ChartObject extends HasListeners {
 	 * Hides the specified data series from the chart. Accepts one parameter which can be a number or an array of
 	 * numbers, in which 0 refers to the first data series, and so on.
 	 * 
-	 * @param columnIndexes
+	 * @param columnIndexes todo
 	 */
 	public final native void hideDataColumns(JsArrayInteger columnIndexes) /*-{
 		this.hideDataColumns(columnIndexes);
@@ -233,7 +233,7 @@ public class ChartObject extends HasListeners {
 	 * Shows the specified data series from the chart, after they were hidden using hideDataColumns method. Accepts one
 	 * parameter which can be a number or an array of numbers, in which 0 refers to the first data series, and so on.
 	 * 
-	 * @param columnIndexes
+	 * @param columnIndexes todo
 	 */
 	public final native void showDataColumns(JsArrayInteger columnIndexes) /*-{
 		this.showDataColumns(columnIndexes);

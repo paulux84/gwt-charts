@@ -35,7 +35,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets animation attributes such as duration and easing.
 	 * 
-	 * @param animation
+	 * @param animation todo
 	 */
 	public final native void setAnimation(Animation animation) /*-{
 		this.animation = animation;
@@ -44,7 +44,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * The color to use for the green section, in HTML color notation.
 	 * 
-	 * @param greenColor
+	 * @param greenColor todo
 	 */
 	public final native void setGreenColor(String greenColor) /*-{
 		this.greenColor = greenColor;
@@ -53,7 +53,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * The lowest value for a range marked by a green color.
 	 * 
-	 * @param greenFrom
+	 * @param greenFrom todo
 	 */
 	public final native void setGreenFrom(double greenFrom) /*-{
 		this.greenFrom = greenFrom;
@@ -62,7 +62,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * The highest value for a range marked by a green color.
 	 * 
-	 * @param greenTo
+	 * @param greenTo todo
 	 */
 	public final native void setGreenTo(double greenTo) /*-{
 		this.greenTo = greenTo;
@@ -72,7 +72,7 @@ public class GaugeOptions extends Options {
 	 * Labels for major tick marks. The number of labels define the number of major ticks in all gauges.<br>
 	 * The default is five major ticks, with the labels of the minimal and maximal gauge value.
 	 * 
-	 * @param majorTicks
+	 * @param majorTicks todo
 	 */
 	public final void setMajorTicks(String... majorTicks) {
 		setMajorTicks(ArrayHelper.createArray(majorTicks));
@@ -81,7 +81,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the maximal value of a gauge.
 	 * 
-	 * @param max
+	 * @param max todo
 	 */
 	public final native void setMax(double max) /*-{
 		this.max = max;
@@ -90,7 +90,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the minimal value of a gauge.
 	 * 
-	 * @param min
+	 * @param min todo
 	 */
 	public final native void setMin(double min) /*-{
 		this.min = min;
@@ -99,7 +99,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the number of minor tick section in each major tick section.
 	 * 
-	 * @param minorTicks
+	 * @param minorTicks todo
 	 */
 	public final native void setMinorTicks(int minorTicks) /*-{
 		this.minorTicks = minorTicks;
@@ -108,7 +108,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the color to use for the red section, in HTML color notation.
 	 * 
-	 * @param redColor
+	 * @param redColor todo
 	 */
 	public final native void setRedColor(String redColor) /*-{
 		this.redColor = redColor;
@@ -117,7 +117,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the lowest value for a range marked by a red color.
 	 * 
-	 * @param redFrom
+	 * @param redFrom todo
 	 */
 	public final native void setRedFrom(double redFrom) /*-{
 		this.redFrom = redFrom;
@@ -126,7 +126,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the highest value for a range marked by a red color.
 	 * 
-	 * @param redTo
+	 * @param redTo todo
 	 */
 	public final native void setRedTo(double redTo) /*-{
 		this.redTo = redTo;
@@ -135,7 +135,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the color to use for the yellow section, in HTML color notation.
 	 * 
-	 * @param yellowColor
+	 * @param yellowColor todo
 	 */
 	public final native void setYellowColor(String yellowColor) /*-{
 		this.yellowColor = yellowColor;
@@ -144,7 +144,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the lowest value for a range marked by a yellow color.
 	 * 
-	 * @param yellowFrom
+	 * @param yellowFrom todo
 	 */
 	public final native void setYellowFrom(double yellowFrom) /*-{
 		this.yellowFrom = yellowFrom;
@@ -153,7 +153,7 @@ public class GaugeOptions extends Options {
 	/**
 	 * Sets the highest value for a range marked by a yellow color.
 	 * 
-	 * @param yellowTo
+	 * @param yellowTo todo
 	 */
 	public final native void setYellowTo(double yellowTo) /*-{
 		this.yellowTo = yellowTo;

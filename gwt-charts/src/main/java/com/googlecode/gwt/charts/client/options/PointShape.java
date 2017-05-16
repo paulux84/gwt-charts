@@ -63,7 +63,7 @@ public class PointShape extends JavaScriptObject {
 	/**
 	 * Sets the type of point.
 	 * 
-	 * @param type
+	 * @param type todo
 	 */
 	public final void setType(PointShapeType type) {
 		setType(type.getName());

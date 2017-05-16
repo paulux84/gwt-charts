@@ -32,7 +32,7 @@ public abstract class StateChangeHandler implements EventHandler {
 	/**
 	 * On event fired.
 	 * 
-	 * @param event
+	 * @param event todo
 	 */
 	public abstract void onStateChange(StateChangeEvent event);
 }
