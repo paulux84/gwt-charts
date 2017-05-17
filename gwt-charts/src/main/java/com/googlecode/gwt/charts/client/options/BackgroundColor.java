@@ -37,7 +37,9 @@ public class BackgroundColor extends JavaScriptObject {
 	 */
 	public static BackgroundColor create(String fill, String stroke, int strokeWidth) {
 		BackgroundColor backgroundColor = createObject().cast();
+		backgroundColor.setFill(fill);
 		backgroundColor.setStroke(stroke);
+		backgroundColor.setStrokeWidth(strokeWidth);
 		return backgroundColor;
 	}
 
